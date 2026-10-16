@@ -1,0 +1,497 @@
+[
+  {
+    "label": "Living room image 1",
+    "filename": "5622b9b5-22c1-4eaa-8df5-415154c97b6c.jpeg",
+    "width": 1170,
+    "height": 877,
+    "orientation": "landscape",
+    "aspectRatio": "1.33",
+    "category": "bedroom"
+  },
+  {
+    "label": "Living room image 2",
+    "filename": "067d73cf-a690-46c7-94d0-356b97ed89d1.jpeg",
+    "width": 1170,
+    "height": 1553,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Living room image 3",
+    "filename": "34d3aebf-6d45-49e8-989c-8e1d6b0b7922.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Full kitchen image 1",
+    "filename": "3316e428-bc8e-4b34-9867-04d18295f5a6.jpeg",
+    "width": 1200,
+    "height": 900,
+    "orientation": "landscape",
+    "aspectRatio": "1.33",
+    "category": "kitchen"
+  },
+  {
+    "label": "Full kitchen image 2",
+    "filename": "67b5830d-e53a-4486-bab7-38f362916277.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "kitchen"
+  },
+  {
+    "label": "Full kitchen image 3",
+    "filename": "c04582ca-1798-4e2c-b8cf-902747939167.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "kitchen"
+  },
+  {
+    "label": "Full kitchen image 4",
+    "filename": "2bb109e8-6977-4ff9-ba25-93f6c73bfbc9.jpeg",
+    "width": 1200,
+    "height": 900,
+    "orientation": "landscape",
+    "aspectRatio": "1.33",
+    "category": "kitchen"
+  },
+  {
+    "label": "Full kitchen image 5",
+    "filename": "3b3f64d8-1d85-4cf5-a233-543b49b9332c.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "kitchen"
+  },
+  {
+    "label": "Full kitchen image 6",
+    "filename": "9f28a4fb-6837-4ec4-bb7d-0380e1649e78.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "kitchen"
+  },
+  {
+    "label": "Full kitchen image 7",
+    "filename": "ceafd429-8430-42f0-93e2-497bad46c7c6.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "kitchen"
+  },
+  {
+    "label": "Full kitchen image 8",
+    "filename": "297a72e1-97bd-4519-8681-61f09cd7c048.jpeg",
+    "width": 960,
+    "height": 1280,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "kitchen"
+  },
+  {
+    "label": "Bedroom image 1",
+    "filename": "505bd2a0-cc11-4209-a32d-0f17800e8a4c.jpeg",
+    "width": 1200,
+    "height": 900,
+    "orientation": "landscape",
+    "aspectRatio": "1.33",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 2",
+    "filename": "1f2de06f-66f5-4258-88e0-a18eca8f4895.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 3",
+    "filename": "c92c8677-6982-453c-8c7f-2366b1b0c699.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 4",
+    "filename": "fa25abe3-5b21-4876-9497-6ff8fcef6514.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 5",
+    "filename": "fd7a8a55-b41d-4c22-af04-db8c94f6e12d.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 6",
+    "filename": "55c14974-44f7-4566-934d-9ad0c4c0a57c.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 7",
+    "filename": "80e3dc8a-4aac-4811-acb3-f0c98e9328a6.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 8",
+    "filename": "4dae3cde-cba4-4222-b128-10dafec3671b.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 9",
+    "filename": "79f65965-7408-49d5-a112-0b679c0e84f3.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 10",
+    "filename": "5ca8f7b2-a43a-41a2-bac8-cc7908fe7a0c.jpeg",
+    "width": 1200,
+    "height": 900,
+    "orientation": "landscape",
+    "aspectRatio": "1.33",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 11",
+    "filename": "51b3b8fc-fc8f-401e-88b3-40bbffc33c06.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 12",
+    "filename": "ab65052c-ecb7-422f-9da4-244f6dadaeb5.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 13",
+    "filename": "65500336-4972-48c4-9320-a214b8df0693.jpeg",
+    "width": 1200,
+    "height": 900,
+    "orientation": "landscape",
+    "aspectRatio": "1.33",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 14",
+    "filename": "5bc1424f-f8fa-4954-bc6b-620395402fc3.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 15",
+    "filename": "4ae29d03-bcac-4270-a961-95bffd5e2dd2.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 16",
+    "filename": "9a8ceec5-211e-4b69-a7b3-b2131b9b432e.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 17",
+    "filename": "8eb04d3b-5108-48fa-8cf1-c39912ef6ab5.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 18",
+    "filename": "8ca4dd89-b94e-4986-b868-908a548aeceb.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 19",
+    "filename": "974ce88d-ef20-48a8-bbfa-033d41b469d0.jpeg",
+    "width": 960,
+    "height": 1280,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 20",
+    "filename": "b2cbebe1-64f3-4c34-999a-4da42822c58a.jpeg",
+    "width": 960,
+    "height": 1280,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 21",
+    "filename": "fc0763d2-1aad-4bd8-850a-210c2e6fb447.jpeg",
+    "width": 894,
+    "height": 1280,
+    "orientation": "portrait",
+    "aspectRatio": "0.70",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 22",
+    "filename": "40bd0cba-56ff-469a-b91e-ca617485c4aa.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 23",
+    "filename": "09301570-2c31-4828-aece-61bbd003e9f3.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 24",
+    "filename": "1f8b129b-8c1a-435c-803d-3e9c0c1c4624.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 25",
+    "filename": "aef17301-b2ea-4fb9-888b-8e133064333a.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 26",
+    "filename": "6e033cf5-6cfe-4b8c-b206-599b02e36991.jpeg",
+    "width": 960,
+    "height": 1280,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 27",
+    "filename": "90c90f84-0ad0-4184-a9d6-88f7c789b79a.jpeg",
+    "width": 960,
+    "height": 1280,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 28",
+    "filename": "c06a7104-6be1-4925-87eb-37bddffb5c35.png",
+    "width": 1086,
+    "height": 1448,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 29",
+    "filename": "8acc638b-e3a5-4617-8eef-cc876a4a5b3c.jpeg",
+    "width": 960,
+    "height": 1280,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 30",
+    "filename": "38a18e08-46df-4ff6-8505-94bcdae8cec9.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 31",
+    "filename": "e4a51279-17a7-47f5-9a52-c0445527bccc.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 32",
+    "filename": "42c82cd2-de70-46c7-9a85-786b62c1a901.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 33",
+    "filename": "c06e33ca-39e0-4a31-82e3-74fdfd7d432f.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 34",
+    "filename": "e4dbe06c-0e85-41df-80d5-b507003385cd.png",
+    "width": 1200,
+    "height": 900,
+    "orientation": "landscape",
+    "aspectRatio": "1.33",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 35",
+    "filename": "d4c967e8-56b3-44dd-ad31-c51987140e96.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Bedroom image 36",
+    "filename": "61f13abd-114c-4fb9-a0ba-61a1d7ec0b7d.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bedroom"
+  },
+  {
+    "label": "Full bathroom image 1",
+    "filename": "890cbb77-5967-4063-8df9-bd7771145ca7.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "bathroom"
+  },
+  {
+    "label": "Balcony image 1",
+    "filename": "936dfe43-7801-4b57-8096-3cfd5576f5d3.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "views"
+  },
+  {
+    "label": "Balcony image 2",
+    "filename": "3d0d9a10-5fc9-42aa-a4e9-88d4d0e12f9a.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "views"
+  },
+  {
+    "label": "Balcony image 3",
+    "filename": "0e9f1e9d-12e7-4e36-a744-845e5477942a.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "views"
+  },
+  {
+    "label": "Balcony image 4",
+    "filename": "48158034-e514-497f-a745-6459f654ca34.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "views"
+  },
+  {
+    "label": "Exterior image 1",
+    "filename": "d3cacaca-2173-4782-815f-ed903fb917bf.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "views"
+  },
+  {
+    "label": "Exterior image 2",
+    "filename": "53dc0a38-feaa-4031-a61b-269fa139f55d.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "views"
+  },
+  {
+    "label": "Exterior image 3",
+    "filename": "6f8fba5b-4fee-452e-97ca-d5b8b2de68ab.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "orientation": "portrait",
+    "aspectRatio": "0.75",
+    "category": "views"
+  }
+]

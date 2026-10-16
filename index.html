@@ -1,0 +1,2272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nevra Stays — Luxury 32nd-Floor Skyline Apartment in Supernova, Noida</title>
+  <meta name="description" content="Experience high-rise luxury living at Nevra Stays in Supernova, Noida. 32nd floor panoramic city views, designer interiors, 4.88★ Airbnb Guest Favourite hosted by Gaurav." />
+  <meta name="keywords" content="Nevra Stays, Supernova Noida apartment, luxury Airbnb Noida, 32nd floor view, hotel apartment, Gaurav Superhost" />
+  <meta property="og:title" content="Nevra Stays — Luxury Skyline Living in Noida" />
+  <meta property="og:description" content="32nd floor luxury apartment with panoramic skyline views. Airbnb Guest Favourite with 4.88★ rating." />
+  <meta property="og:image" content="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/067d73cf-a690-46c7-94d0-356b97ed89d1.jpeg?im_w=1200" />
+  <meta property="og:type" content="website" />
+  <link rel="canonical" href="https://nevrastays.com/" />
+  <meta property="og:url" content="https://nevrastays.com/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Nevra Stays — Luxury 32nd-Floor Skyline Apartment in Supernova, Noida" />
+  <meta name="twitter:description" content="32nd floor luxury apartment with panoramic skyline views. Airbnb Guest Favourite with 4.88★ rating." />
+  <meta name="twitter:image" content="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/067d73cf-a690-46c7-94d0-356b97ed89d1.jpeg?im_w=1200" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LodgingBusiness",
+    "name": "Nevra Stays",
+    "description": "32nd floor luxury apartment in Supernova, Sector 94, Noida",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Supernova, Sector 94",
+      "addressLocality": "Noida",
+      "addressRegion": "Uttar Pradesh",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 28.54318,
+      "longitude": 77.3218
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.88",
+      "reviewCount": "33",
+      "bestRating": "5"
+    },
+    "url": "https://nevrastays.com/"
+  }
+  </script>
+
+  <!-- Fonts: Plus Jakarta Sans (Reference UI font), Inter & Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏨</text></svg>" />
+</head>
+<body>
+
+  <!-- ==========================================================================
+       FLOATING GLASS PILL NAVBAR (Inspired by Reference UI)
+       ========================================================================== -->
+  <header class="topbar glass-topbar" id="topbar">
+    <div class="glass-pill-container">
+      <!-- Left: Brand Logo & 3-Bar Badge (as in Reference Image) -->
+      <a href="#" class="glass-pill-brand">
+        <span class="pill-badge-bars" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+        <span class="pill-brand-text">NEVRA<span>STAYS</span></span>
+      </a>
+
+      <!-- Center: Desktop Navigation Links -->
+      <nav class="glass-pill-nav" aria-label="Main Navigation">
+        <a href="#showcase" class="pill-nav-link">The Experience</a>
+        <a href="#featured" class="pill-nav-link">Highlights</a>
+        <a href="#gallery" class="pill-nav-link">Gallery</a>
+        <a href="#tour" class="pill-nav-link">Virtual Tour</a>
+        <a href="#about" class="pill-nav-link">Superhost</a>
+        <a href="#reviews" class="pill-nav-link">Reviews</a>
+        <a href="#location" class="pill-nav-link">Location</a>
+      </nav>
+
+      <!-- Right: Direct Book CTA & Mobile Drawer Toggle -->
+      <div class="glass-pill-actions">
+        <a href="https://www.airbnb.co.uk/rooms/1645744603760645099" target="_blank" rel="noopener" class="pill-cta-btn">
+          Book on Airbnb
+        </a>
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileDrawer">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu (Frosted Glass Overlay with Proper Clearance) -->
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <div class="drawer-header">
+      <div class="drawer-brand">
+        <span class="pill-badge-bars" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+        <span>NEVRA<span class="coral">STAYS</span></span>
+      </div>
+      <button class="drawer-close-btn" id="drawerCloseBtn" aria-label="Close navigation">&times;</button>
+    </div>
+
+    <!-- Links neatly spaced DOWN from NEVRASTAYS with perfect alignment and clickability -->
+    <nav class="drawer-nav">
+      <a href="#showcase" class="drawer-link">The Experience</a>
+      <a href="#featured" class="drawer-link">Highlights</a>
+      <a href="#gallery" class="drawer-link">Inspirations Gallery</a>
+      <a href="#tour" class="drawer-link">Virtual Tour</a>
+      <a href="#about" class="drawer-link">About Superhost</a>
+      <a href="#amenities" class="drawer-link">Amenities</a>
+      <a href="#reviews" class="drawer-link">Guest Reviews</a>
+      <a href="#location" class="drawer-link">Location & Map</a>
+
+      <div class="drawer-host-card">
+        <div class="drawer-host-badge">Direct Host Contact</div>
+        <div class="drawer-host-actions">
+          <a href="tel:+919560023669" class="drawer-host-btn">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <span>+91 95600 23669</span>
+          </a>
+          <a href="https://wa.me/919560023669" target="_blank" rel="noopener" class="drawer-host-btn drawer-host-btn-wa">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
+              <path d="M17.472 14.382c-.301-.15-1.78-.878-2.056-.978-.276-.1-.476-.15-.677.15-.2.301-.777.978-.952 1.179-.176.2-.351.226-.652.075-.301-.15-1.27-.468-2.42-1.493-.895-.798-1.5-1.783-1.675-2.083-.176-.301-.019-.464.132-.614.135-.135.301-.351.451-.527.15-.176.2-.301.301-.501.1-.2.05-.376-.025-.526-.075-.15-.677-1.63-.927-2.233-.244-.588-.492-.508-.677-.517l-.577-.01c-.2 0-.526.075-.802.376-.276.301-1.053 1.028-1.053 2.508 0 1.48 1.078 2.909 1.229 3.109.15.2 2.121 3.238 5.138 4.542.718.311 1.278.497 1.715.636.721.23 1.377.197 1.896.12.578-.087 1.78-.727 2.031-1.429.25-.702.25-1.304.175-1.43-.075-.125-.276-.2-.577-.35zM12.04 2C6.516 2 2.023 6.49 2.023 12.01c0 1.91.539 3.693 1.472 5.215L2 22l4.945-1.442A9.972 9.972 0 0 0 12.04 22c5.523 0 10.017-4.49 10.017-10.01S17.563 2 12.04 2z"/>
+            </svg>
+            <span>WhatsApp</span>
+          </a>
+        </div>
+      </div>
+
+      <a href="https://www.airbnb.co.uk/rooms/1645744603760645099" target="_blank" rel="noopener" class="btn btn-coral drawer-cta">
+        Reserve Your Dates &rarr;
+      </a>
+    </nav>
+  </div>
+
+  <!-- ==========================================================================
+       HERO BANNER (Cinematic High-Rise Skyline)
+       ========================================================================== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/067d73cf-a690-46c7-94d0-356b97ed89d1.jpeg?im_w=1200" alt="Master suite with panoramic view from the 32nd floor of Supernova Noida" width="1200" height="800" fetchpriority="high" />
+    </div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <div class="hero-kicker-pill">
+        <span>★</span> AIRBNB GUEST FAVOURITE &middot; 4.88 RATING &middot; NOIDA
+      </div>
+      <h1>Where The Sky Meets Luxury In Noida</h1>
+      <p class="hero-desc">Perched on the 32nd floor of the iconic Supernova skyscraper — a private retreat of floor-to-ceiling vistas, designer aesthetics, and Superhost hospitality.</p>
+      
+      <!-- Central Hero Buttons (Matching Reference UI Style) -->
+      <div class="hero-actions hero-central-btns">
+        <a href="https://www.airbnb.co.uk/rooms/1645744603760645099" target="_blank" rel="noopener" class="btn-hero-white" id="hero-book-btn">
+          Book on Airbnb &rarr;
+        </a>
+        <a href="#showcase" class="btn-hero-glass">
+          The Experience
+        </a>
+      </div>
+    </div>
+
+    <!-- Floating Bottom Search Bar (Central Aligned, Fully Rounded Pill Style) -->
+    <div class="hero-floating-bar hero-floating-bar-centered">
+      <div class="hero-search-box hero-search-form" role="search" aria-label="Check availability on Airbnb">
+        <div class="hero-date-group">
+          <div class="hero-input-field">
+            <label for="heroCheckin" class="hero-field-label">Check-in</label>
+            <input type="date" id="heroCheckin" class="hero-date-input" aria-label="Check-in date" />
+          </div>
+          <span class="hero-date-sep" aria-hidden="true">&rarr;</span>
+          <div class="hero-input-field">
+            <label for="heroCheckout" class="hero-field-label">Checkout</label>
+            <input type="date" id="heroCheckout" class="hero-date-input" aria-label="Check-out date" />
+          </div>
+        </div>
+        <div class="hero-input-field">
+          <label for="heroGuests" class="hero-field-label">Guests</label>
+          <select id="heroGuests" class="hero-guest-select" aria-label="Number of guests">
+            <option value="1">1 Guest</option>
+            <option value="2" selected>2 Guests</option>
+            <option value="3">3 Guests</option>
+            <option value="4">4 Guests</option>
+          </select>
+        </div>
+        <button type="button" class="hero-search-btn" id="heroSearchBtn" aria-label="Check availability on Airbnb">
+          Check Availability on Airbnb &rarr;
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION: "BECOME A TRAVEL PRO" / 4-CARD SHOWCASE
+       ========================================================================== -->
+  <section class="showcase-section section-padding" id="showcase">
+    <div class="container">
+      <div class="section-header text-left">
+        <span class="section-kicker">The Nevra Experience</span>
+        <h2 class="section-title">Luxury Living In One Seamless Stay</h2>
+        <p class="section-subtitle">Every detail is thoughtfully curated to provide an unforgettable high-rise retreat for couples, solo travelers, and business visits.</p>
+      </div>
+
+      <div class="showcase-grid">
+        <!-- Card 1 -->
+        <div class="showcase-card" data-gallery-filter="bedroom">
+          <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/067d73cf-a690-46c7-94d0-356b97ed89d1.jpeg?im_w=720" alt="Master Suite Comfort" width="720" height="540" loading="lazy" />
+          <div class="showcase-card-overlay">
+            <h3 class="showcase-card-title">Master Suite Comfort</h3>
+            <span class="showcase-card-sub">King bed facing the clouds</span>
+          </div>
+        </div>
+
+        <!-- Card 2: Teal Highlight Style (Matching Reference "Vacation Home Rental Success") -->
+        <div class="showcase-card is-teal-style" data-gallery-filter="views">
+          <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/936dfe43-7801-4b57-8096-3cfd5576f5d3.jpeg?im_w=720" alt="32nd Floor Balcony" width="720" height="540" loading="lazy" />
+          <div class="showcase-card-overlay">
+            <h3 class="showcase-card-title">32nd Floor Balcony</h3>
+            <span class="showcase-card-sub">Unmatched city horizon</span>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="showcase-card" data-gallery-filter="kitchen">
+          <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/3316e428-bc8e-4b34-9867-04d18295f5a6.jpeg?im_w=720" alt="Modular Chef Kitchen" width="720" height="540" loading="lazy" />
+          <div class="showcase-card-overlay">
+            <h3 class="showcase-card-title">Modular Kitchen</h3>
+            <span class="showcase-card-sub">Full appliances & cookware</span>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="showcase-card" data-gallery-filter="bathroom">
+          <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/890cbb77-5967-4063-8df9-bd7771145ca7.jpeg?im_w=720" alt="Illuminated Vanity" width="720" height="540" loading="lazy" />
+          <div class="showcase-card-overlay">
+            <h3 class="showcase-card-title">Designer Bathroom</h3>
+            <span class="showcase-card-sub">Backlit mirror & hot shower</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION: FEATURED STORIES (Split 2-Column Section from Reference UI)
+       ========================================================================== -->
+  <section class="featured-split-section section-padding" id="featured">
+    <div class="container">
+      <div class="featured-split-grid">
+        <!-- Left: Hero Feature Story Card -->
+        <div class="featured-hero-card">
+          <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/c04582ca-1798-4e2c-b8cf-902747939167.jpeg?im_w=960" alt="Skyline view over Noida" loading="lazy" />
+          <div class="featured-hero-overlay"></div>
+          
+          <div class="featured-hero-content">
+            <span class="badge-coral">FEATURED RETREAT</span>
+            <h2 class="featured-hero-title">How A 32nd-Floor View Redefines Your Weekend Stay</h2>
+            <p class="featured-hero-desc">Perched far above street bustle, witness golden sunsets over the Yamuna and the sparkling city grid come alive at night.</p>
+            <a href="https://www.airbnb.co.uk/rooms/1645744603760645099" target="_blank" rel="noopener" class="btn btn-outline-white">
+              Reserve Apartment &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Dark Highlight List Card -->
+        <div class="featured-list-card">
+          <h3 class="featured-list-heading">Featured Highlights</h3>
+          
+          <div class="featured-story-items">
+            <!-- Item 1 -->
+            <div class="story-item">
+              <div class="story-avatar">
+                <img src="https://a0.muscache.com/im/pictures/user/User/original/a97a8c7e-0562-4ba9-a896-b41add5e39b2.jpeg?im_w=120" alt="Gaurav Superhost" />
+              </div>
+              <div class="story-meta">
+                <h4 class="story-title">Hosted by Superhost Gaurav</h4>
+                <span class="story-sub">Airbnb Superhost &middot; Responsive guest care</span>
+              </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="story-item">
+              <div class="story-avatar" style="background: #f59e0b; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 1.2rem; border-color: #f59e0b;">
+                ⭐
+              </div>
+              <div class="story-meta">
+                <h4 class="story-title">4.88★ Guest Favourite</h4>
+                <span class="story-sub">Consistently 5-star verified guest reviews on Airbnb</span>
+              </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="story-item">
+              <div class="story-avatar" style="background: #56a3a6; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 1.2rem;">
+                🔑
+              </div>
+              <div class="story-meta">
+                <h4 class="story-title">Keyless Smart Self Check-in</h4>
+                <span class="story-sub">Arrive on your schedule with digital keypad access</span>
+              </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="story-item">
+              <div class="story-avatar" style="background: #1e293b; display: flex; align-items: center; justify-content: center; color: #56a3a6; font-size: 1.2rem;">
+                🏢
+              </div>
+              <div class="story-meta">
+                <h4 class="story-title">Supernova Landmark Tower</h4>
+                <span class="story-sub">Building amenities include pool, gym, and parking (verify access with host)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION: FEATURED VIDEOS / VIRTUAL TOUR (Matching Reference Template)
+       ========================================================================== -->
+  <section class="tour-section section-padding" id="tour">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Visual Walkthrough</span>
+        <h2 class="section-title">A Visual Tour of Nevra Stays</h2>
+        <p class="section-subtitle">Take a glimpse inside our luxury high-rise sanctuary through curated visual perspectives.</p>
+      </div>
+
+      <div class="tour-grid">
+        <!-- Left Side Photo -->
+        <div class="tour-side-card">
+          <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/936dfe43-7801-4b57-8096-3cfd5576f5d3.jpeg?im_w=720" alt="Private High-Rise Balcony" loading="lazy" />
+        </div>
+
+        <!-- Center Main Card with Play Button -->
+        <div class="tour-center-card" onclick="document.querySelector('.inspiration-card[data-index=\'0\']').click();">
+          <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/067d73cf-a690-46c7-94d0-356b97ed89d1.jpeg?im_w=1200" alt="Luxury Living Room Lounge" loading="lazy" />
+          <div class="tour-center-overlay"></div>
+          
+          <button class="tour-play-btn" aria-label="View Fullscreen Photo Gallery">
+            ▶
+          </button>
+          
+          <div class="tour-center-caption">
+            A Walkthrough of the 32nd Floor Studio & Skyline
+          </div>
+        </div>
+
+        <!-- Right Side Photo -->
+        <div class="tour-side-card">
+          <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/79f65965-7408-49d5-a112-0b679c0e84f3.jpeg?im_w=720" alt="Cozy reading nook" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION: NEWSLETTER / VIP DIRECT INQUIRY (Reference Template Style)
+       ========================================================================== -->
+  <section class="newsletter-section section-padding">
+    <div class="container">
+      <div class="newsletter-card">
+        <div class="newsletter-card-bg">
+          <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/fa25abe3-5b21-4876-9497-6ff8fcef6514.jpeg?im_w=1200" alt="Sunset over Noida from 32nd floor" loading="lazy" />
+        </div>
+
+        <div class="newsletter-content">
+          <h2 class="newsletter-title">Reserve Your Stay Above The Clouds</h2>
+          <p class="newsletter-desc">Planning a weekend getaway, anniversary celebration, or business trip to Noida? Contact Superhost Gaurav directly for dates, flexible check-in, and exclusive direct hospitality.</p>
+          <div class="newsletter-contact-pills">
+            <a href="tel:+919560023669" class="newsletter-contact-pill">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <span>+91 95600 23669</span>
+            </a>
+            <a href="https://www.instagram.com/nevra.stay/" target="_blank" rel="noopener" class="newsletter-contact-pill">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+              <span>@nevra.stay</span>
+            </a>
+            <a href="https://www.facebook.com/nevra.stay" target="_blank" rel="noopener" class="newsletter-contact-pill">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+              <span>Nevra.Stay</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Floating Form Card -->
+        <div class="newsletter-form-card">
+          <form id="inquiryForm" novalidate>
+            <div class="form-field">
+              <label for="formName" class="form-label">Full Name</label>
+              <input type="text" id="formName" class="form-input" placeholder="Your Full Name" required autocomplete="name" />
+            </div>
+            <div class="form-field">
+              <label for="formPhone" class="form-label">WhatsApp / Phone Number</label>
+              <input type="tel" id="formPhone" class="form-input" placeholder="+91 98765 43210" required autocomplete="tel" inputmode="tel" />
+            </div>
+            <div class="form-field">
+              <label class="form-label">Preferred Stay Dates</label>
+              <div class="form-dates-row">
+                <div>
+                  <label for="formCheckin" class="hero-field-label">Check-in</label>
+                  <input type="date" id="formCheckin" class="form-input" required />
+                </div>
+                <div>
+                  <label for="formCheckout" class="hero-field-label">Checkout</label>
+                  <input type="date" id="formCheckout" class="form-input" required />
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-teal form-submit-btn">
+              Inquire via WhatsApp &rarr;
+            </button>
+            <div id="inquiryFallback" class="inquiry-fallback-box" role="alert">
+              <strong>WhatsApp popup blocked:</strong> Message host Gaurav directly:
+              <div style="margin: 0.5rem 0; font-family: monospace; background: rgba(0,0,0,0.05); padding: 0.4rem; border-radius: 4px;" class="fallback-msg-text"></div>
+              <a href="tel:+919560023669">📞 Call +91 95600 23669</a> or <a href="https://wa.me/919560023669" target="_blank" rel="noopener">Open WhatsApp Web &rarr;</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION: INSPIRATIONS (Gallery Matching Reference Template Exactly)
+       ========================================================================== -->
+  <section class="gallery-section section-padding" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Property Portfolio</span>
+        <h2 class="section-title">Inspirations</h2>
+        <p class="section-subtitle">Curated photography of our spaces and perspectives on the 32nd floor of Supernova. Categorized and arranged by authentic width and length.</p>
+      </div>
+
+      <!-- Category Filter Tabs (Reference Template Style) -->
+      <div class="gallery-nav-bar" role="toolbar" aria-label="Gallery category filters">
+        <button class="nav-tab active" data-filter="all" aria-pressed="true">
+          <span>✨ All Spaces</span>
+          <span class="nav-tab-count">22</span>
+        </button>
+        <button class="nav-tab" data-filter="bedroom" aria-pressed="false">
+          <span>🛏️ Bedroom & Suite</span>
+          <span class="nav-tab-count">7</span>
+        </button>
+        <button class="nav-tab" data-filter="living" aria-pressed="false">
+          <span>🛋️ Living Lounge</span>
+          <span class="nav-tab-count">4</span>
+        </button>
+        <button class="nav-tab" data-filter="kitchen" aria-pressed="false">
+          <span>🍳 Kitchen & Dining</span>
+          <span class="nav-tab-count">5</span>
+        </button>
+        <button class="nav-tab" data-filter="views" aria-pressed="false">
+          <span>🌅 Skyline & Balcony</span>
+          <span class="nav-tab-count">5</span>
+        </button>
+        <button class="nav-tab" data-filter="bathroom" aria-pressed="false">
+          <span>🚿 Bathroom</span>
+          <span class="nav-tab-count">1</span>
+        </button>
+      </div>
+
+      <!-- Dimension filter bar removed for streamlined guest experience -->
+
+      <!-- Inspirations Masonry Grid -->
+      <div class="inspirations-grid" id="inspirationsGrid">
+        <!-- Photo 1: 32nd Floor Skyline Horizon -->
+        <article class="inspiration-card is-portrait" 
+                 data-category="views" 
+                 data-orientation="portrait" 
+                 data-index="0"
+                 data-title="32nd Floor Skyline Horizon"
+                 data-desc="Unmatched panoramic vistas over Noida from the 32nd floor"
+                 data-catname="Skyline & Balcony"
+                 data-dims="1200 × 1600 (Tall · 3:4)"
+                 data-src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/c04582ca-1798-4e2c-b8cf-902747939167.jpeg?im_w=960">
+          <div class="inspiration-img-wrap">
+            <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/c04582ca-1798-4e2c-b8cf-902747939167.jpeg?im_w=960" 
+                 alt="Panoramic 32nd-floor view of Noida skyline and horizon at dusk" 
+                 loading="lazy" 
+                 width="1200" 
+                 height="1600" />
+            
+            <span class="card-kicker-badge">Skyline & Balcony</span>
+            
+          </div>
+
+          <div class="inspiration-card-content">
+            <div class="inspiration-card-category">Skyline & Balcony</div>
+            <h3 class="inspiration-card-title">32nd Floor Skyline Horizon</h3>
+            
+            
+          </div>
+        </article>
+        <!-- Photo 2: Golden Hour Sunset View -->
+        <article class="inspiration-card is-portrait" 
+                 data-category="views" 
+                 data-orientation="portrait" 
+                 data-index="1"
+                 data-title="Golden Hour Sunset View"
+                 data-desc="Breathtaking golden light streaming through the floor-to-ceiling glass"
+                 data-catname="Skyline & Balcony"
+                 data-dims="1200 × 1600 (Tall · 3:4)"
+                 data-src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/fa25abe3-5b21-4876-9497-6ff8fcef6514.jpeg?im_w=960">
+          <div class="inspiration-img-wrap">
+            <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/fa25abe3-5b21-4876-9497-6ff8fcef6514.jpeg?im_w=960" 
+                 alt="Golden hour sunset with warm sunlight streaming through floor-to-ceiling glass" 
+                 loading="lazy" 
+                 width="1200" 
+                 height="1600" />
+            
+            <span class="card-kicker-badge">Skyline & Balcony</span>
+            
+          </div>
+
+          <div class="inspiration-card-content">
+            <div class="inspiration-card-category">Skyline & Balcony</div>
+            <h3 class="inspiration-card-title">Golden Hour Sunset View</h3>
+            
+            
+          </div>
+        </article>
+        <!-- Photo 3: Glittering Night Cityscape -->
+        <article class="inspiration-card is-portrait" 
+                 data-category="views" 
+                 data-orientation="portrait" 
+                 data-index="2"
+                 data-title="Glittering Night Cityscape"
+                 data-desc="The vibrant Noida skyline illuminated after dusk"
+                 data-catname="Skyline & Balcony"
+                 data-dims="960 × 1280 (Tall · 3:4)"
+                 data-src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/297a72e1-97bd-4519-8681-61f09cd7c048.jpeg?im_w=960">
+          <div class="inspiration-img-wrap">
+            <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/297a72e1-97bd-4519-8681-61f09cd7c048.jpeg?im_w=960" 
+                 alt="Night city view of illuminated Noida expressways and towers from balcony" 
+                 loading="lazy" 
+                 width="960" 
+                 height="1280" />
+            
+            <span class="card-kicker-badge">Skyline & Balcony</span>
+            
+          </div>
+
+          <div class="inspiration-card-content">
+            <div class="inspiration-card-category">Skyline & Balcony</div>
+            <h3 class="inspiration-card-title">Glittering Night Cityscape</h3>
+            
+            
+          </div>
+        </article>
+        <!-- Photo 4: Private High-Rise Balcony -->
+        <article class="inspiration-card is-portrait" 
+                 data-category="views" 
+                 data-orientation="portrait" 
+                 data-index="3"
+                 data-title="Private High-Rise Balcony"
+                 data-desc="Step outside into the fresh open sky on your private terrace"
+                 data-catname="Skyline & Balcony"
+                 data-dims="1200 × 1600 (Tall · 3:4)"
+                 data-src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/936dfe43-7801-4b57-8096-3cfd5576f5d3.jpeg?im_w=960">
+          <div class="inspiration-img-wrap">
+            <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/936dfe43-7801-4b57-8096-3cfd5576f5d3.jpeg?im_w=960" 
+                 alt="Private high-rise balcony with outdoor seating and expansive open sky view" 
+                 loading="lazy" 
+                 width="1200" 
+                 height="1600" />
+            
+            <span class="card-kicker-badge">Skyline & Balcony</span>
+            
+          </div>
+
+          <div class="inspiration-card-content">
+            <div class="inspiration-card-category">Skyline & Balcony</div>
+            <h3 class="inspiration-card-title">Private High-Rise Balcony</h3>
+            
+            
+          </div>
+        </article>
+        <!-- Photo 5: Balcony Overlook & Railing -->
+        <article class="inspiration-card is-portrait" 
+                 data-category="views" 
+                 data-orientation="portrait" 
+                 data-index="4"
+                 data-title="Balcony Overlook & Railing"
+                 data-desc="Spectacular bird-eye view of Supernova grounds and highway"
+                 data-catname="Skyline & Balcony"
+                 data-dims="1200 × 1600 (Tall · 3:4)"
+                 data-src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/3d0d9a10-5fc9-42aa-a4e9-88d4d0e12f9a.jpeg?im_w=960">
+          <div class="inspiration-img-wrap">
+            <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/3d0d9a10-5fc9-42aa-a4e9-88d4d0e12f9a.jpeg?im_w=960" 
+                 alt="Balcony overlook with glass railing framing aerial view of Supernova grounds" 
+                 loading="lazy" 
+                 width="1200" 
+                 height="1600" />
+            
+            <span class="card-kicker-badge">Skyline & Balcony</span>
+            
+          </div>
+
+          <div class="inspiration-card-content">
+            <div class="inspiration-card-category">Skyline & Balcony</div>
+            <h3 class="inspiration-card-title">Balcony Overlook & Railing</h3>
+            
+            
+          </div>
+        </article>
+        <!-- Statement Quote Card (Matching MI-Travel Template) -->
+        <div class="inspiration-quote-card" data-category="all" data-orientation="all">
+          <div class="quote-category">GAURAV &middot; SUPERHOST</div>
+          <!-- TODO_CLIENT_APPROVAL: Confirm authentic quote with host Gaurav -->
+          <p class="quote-text">&ldquo;We designed Nevra Stays to offer a calm, elevated sanctuary in the city. The 32nd-floor sunset speaks for itself — our goal is to make everything else just as effortless.&rdquo;</p>
+          <div class="quote-author">
+            <img src="https://a0.muscache.com/im/pictures/user/User/original/a97a8c7e-0562-4ba9-a896-b41add5e39b2.jpeg?im_w=120" alt="Gaurav Superhost" />
+            <span class="quote-author-name">Gaurav &middot; Host of Nevra Stays</span>
+          </div>
+        </div>
+        <!-- Photo 6: Master Bedroom Suite (Wide) -->
+        <article class="inspiration-card is-landscape" 
+                 data-category="bedroom" 
+                 data-orientation="landscape" 
+                 data-index="5"
+                 data-title="Master Bedroom Suite (Wide)"
+                 data-desc="Spacious king-size bed arrangement with premium designer headboard"
+                 data-catname="Bedroom & Suite"
+                 data-dims="1170 × 877 (Wide · 4:3)"
+                 data-src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/5622b9b5-22c1-4eaa-8df5-415154c97b6c.jpeg?im_w=960">
+          <div class="inspiration-img-wrap">
+            <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/5622b9b5-22c1-4eaa-8df5-415154c97b6c.jpeg?im_w=960" 
+                 alt="Master bedroom suite with king-size bed, upholstered headboard, and bedside lighting" 
+                 loading="lazy" 
+                 width="1170" 
+                 height="877" />
+            
+            <span class="card-kicker-badge badge-featured">FEATURED</span>
+            
+          </div>
+
+          <div class="inspiration-card-content">
+            <div class="inspiration-card-category">Bedroom & Suite</div>
+            <h3 class="inspiration-card-title">Master Bedroom Suite (Wide)</h3>
+            
+            
+          </div>
+        </article>
+        <!-- Photo 7: Luxury Bedroom & Window View -->
+        <article class="inspiration-card is-portrait" 
+                 data-category="bedroom" 
+                 data-orientation="portrait" 
+                 data-index="6"
+                 data-title="Luxury Bedroom & Window View"
+                 data-desc="Plush bedding positioned directly facing the panoramic skyline"
+                 data-catname="Bedroom & Suite"
+                 data-dims="1170 × 1553 (Tall · 3:4)"
+                 data-src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/067d73cf-a690-46c7-94d0-356b97ed89d1.jpeg?im_w=960">
+          <div class="inspiration-img-wrap">
+            <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/067d73cf-a690-46c7-94d0-356b97ed89d1.jpeg?im_w=960" 
+                 alt="Plush king bed positioned directly facing panoramic floor-to-ceiling city vista" 
+                 loading="lazy" 
+                 width="1170" 
+                 height="1553" />
+            
+            <span class="card-kicker-badge">Bedroom & Suite</span>
+            
+          </div>
+
+          <div class="inspiration-card-content">
+            <div class="inspiration-card-category">Bedroom & Suite</div>
+            <h3 class="inspiration-card-title">Luxury Bedroom & Window View</h3>
+            
+            
+          </div>
+        </article>
+        <!-- Photo 8: Warm Ambient Suite Lighting -->
+        <article class="inspiration-card is-portrait" 
+                 data-category="bedroom" 
+                 data-orientation="portrait" 
+                 data-index="7"
+                 data-title="Warm Ambient Suite Lighting"
+                 data-desc="Curated mood lighting for a cozy and relaxing evening retreat"
+                 data-catname="Bedroom & Suite"
+                 data-dims="1200 × 1600 (Tall · 3:4)"
+                 data-src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/34d3aebf-6d45-49e8-989c-8e1d6b0b7922.jpeg?im_w=960">
+          <div class="inspiration-img-wrap">
+            <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/34d3aebf-6d45-49e8-989c-8e1d6b0b7922.jpeg?im_w=960" 
+                 alt="Master bedroom ambiance with warm evening mood lighting and accent pillows" 
+                 loading="lazy" 
+                 width="1200" 
+                 height="1600" />
+            
+            <span class="card-kicker-badge">Bedroom & Suite</span>
+            
+          </div>
+
+          <div class="inspiration-card-content">
+            <div class="inspiration-card-category">Bedroom & Suite</div>
+            <h3 class="inspiration-card-title">Warm Ambient Suite Lighting</h3>
+            
+            
+          </div>
+        </article>
+        <!-- Photo 9: Cozy Bed & Fluffy Linens (Wide) -->
+        <article class="inspiration-card is-landscape" 
+                 data-category="bedroom" 
+                 data-orientation="landscape" 
+                 data-index="8"
+                 data-title="Cozy Bed & Fluffy Linens (Wide)"
+                 data-desc="Ultra-soft cushions and hotel-grade fresh sheets for restful sleep"
+                 data-catname="Bedroom & Suite"
+                 data-dims="1200 × 900 (Wide · 4:3)"
+                 data-src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/5ca8f7b2-a43a-41a2-bac8-cc7908fe7a0c.jpeg?im_w=960">
+          <div class="inspiration-img-wrap">
+            <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/5ca8f7b2-a43a-41a2-bac8-cc7908fe7a0c.jpeg?im_w=960" 
+                 alt="Fresh hotel-grade white linens and fluffy pillows on king bed" 
+                 loading="lazy" 
+                 width="1200" 
+                 height="900" />
+            
+            <span class="card-kicker-badge badge-featured">FEATURED</span>
+            
+          </div>
+
+          <div class="inspiration-card-content">
+            <div class="inspiration-card-category">Bedroom & Suite</div>
+            <h3 class="inspiration-card-title">Cozy Bed & Fluffy Linens (Wide)</h3>
+            
+            
+          </div>
+        </article>
+        <!-- Photo 10: Bedroom Comfort Details -->
+        <article class="inspiration-card is-portrait" 
+                 data-category="bedroom" 
+                 data-orientation="portrait" 
+                 data-index="9"
+                 data-title="Bedroom Comfort Details"
+                 data-desc="Detailed view of comfortable pillows and luxury texture fabrics"
+                 data-catname="Bedroom & Suite"
+                 data-dims="1200 × 1600 (Tall · 3:4)"
+                 data-src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/1f2de06f-66f5-4258-88e0-a18eca8f4895.jpeg?im_w=960">
+          <div class="inspiration-img-wrap">
+            <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/1f2de06f-66f5-4258-88e0-a18eca8f4895.jpeg?im_w=960" 
+                 alt="Close-up of designer bedroom textiles, comfortable cushions, and side lamp" 
+                 loading="lazy" 
+                 width="1200" 
+                 height="1600" />
+            
+            <span class="card-kicker-badge">Bedroom & Suite</span>
+            
+          </div>
+
+          <div class="inspiration-card-content">
+            <div class="inspiration-card-category">Bedroom & Suite</div>
+            <h3 class="inspiration-card-title">Bedroom Comfort Details</h3>
+            
+            
+          </div>
+        </article>
+        <!-- Photo 11: Panoramic Suite Perspective (Wide) -->
+        <article class="inspiration-card is-landscape" 
+                 data-category="bedroom" 
+                 data-orientation="landscape" 
+                 data-index="10"
+                 data-title="Panoramic Suite Perspective (Wide)"
+                 data-desc="Wide view showing room flow between bed and windows"
+                 data-catname="Bedroom & Suite"
+                 data-dims="1200 × 900 (Wide · 4:3)"
+                 data-src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/e4dbe06c-0e85-41df-80d5-b507003385cd.png?im_w=960">
+          <div class="inspiration-img-wrap">
+            <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/e4dbe06c-0e85-41df-80d5-b507003385cd.png?im_w=960" 
+                 alt="Wide perspective of master suite showing open layout from bed to window wall" 
+                 loading="lazy" 
+                 width="1200" 
+                 height="900" />
+            
+            <span class="card-kicker-badge badge-featured">FEATURED</span>
+            
+          </div>
+
+          <div class="inspiration-card-content">
+            <div class="inspiration-card-category">Bedroom & Suite</div>
+            <h3 class="inspiration-card-title">Panoramic Suite Perspective (Wide)</h3>
+            
+            
+          </div>
+        </article>
+        <!-- Photo 12: Designer Bedroom Corner -->
+        <article class="inspiration-card is-portrait" 
+                 data-category="bedroom" 
+                 data-orientation="portrait" 
+                 data-index="11"
+                 data-title="Designer Bedroom Corner"
+                 data-desc="Harmonious interior styling with modern aesthetic touches"
+                 data-catname="Bedroom & Suite"
+                 data-dims="1200 × 1600 (Tall · 3:4)"
+                 data-src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/55c14974-44f7-4566-934d-9ad0c4c0a57c.jpeg?im_w=960">
+          <div class="inspiration-img-wrap">
+            <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/55c14974-44f7-4566-934d-9ad0c4c0a57c.jpeg?im_w=960" 
+                 alt="Corner angle of master bedroom with modern minimalist decor and wardrobe" 
+                 loading="lazy" 
+                 width="1200" 
+                 height="1600" />
+            
+            <span class="card-kicker-badge">Bedroom & Suite</span>
+            
+          </div>
+
+          <div class="inspiration-card-content">
+            <div class="inspiration-card-category">Bedroom & Suite</div>
+            <h3 class="inspiration-card-title">Designer Bedroom Corner</h3>
+            
+            
+          </div>
+        </article>
+        <!-- Photo 13: Designer Lounge & Velvet Seating -->
+        <article class="inspiration-card is-portrait" 
+                 data-category="living" 
+                 data-orientation="portrait" 
+                 data-index="12"
+                 data-title="Designer Lounge & Velvet Seating"
+                 data-desc="Vibrant plush armchairs and curated art pieces"
+                 data-catname="Living Area"
+                 data-dims="1200 × 1600 (Tall · 3:4)"
+                 data-src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/67b5830d-e53a-4486-bab7-38f362916277.jpeg?im_w=960">
+          <div class="inspiration-img-wrap">
+            <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/67b5830d-e53a-4486-bab7-38f362916277.jpeg?im_w=960" 
+                 alt="Living lounge with designer velvet armchair seating and contemporary artwork" 
+                 loading="lazy" 
+                 width="1200" 
+                 height="1600" />
+            
+            <span class="card-kicker-badge">Living Area</span>
+            
+          </div>
+
+          <div class="inspiration-card-content">
+            <div class="inspiration-card-category">Living Area</div>
+            <h3 class="inspiration-card-title">Designer Lounge & Velvet Seating</h3>
+            
+            
+          </div>
+        </article>
+        <!-- Photo 14: Cozy Living Space (Wide) -->
+        <article class="inspiration-card is-landscape" 
+                 data-category="living" 
+                 data-orientation="landscape" 
+                 data-index="13"
+                 data-title="Cozy Living Space (Wide)"
+                 data-desc="Wide relaxation zone with comfortable sofa and coffee table"
+                 data-catname="Living Area"
+                 data-dims="1200 × 900 (Wide · 4:3)"
+                 data-src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/65500336-4972-48c4-9320-a214b8df0693.jpeg?im_w=960">
+          <div class="inspiration-img-wrap">
+            <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/65500336-4972-48c4-9320-a214b8df0693.jpeg?im_w=960" 
+                 alt="Spacious living area featuring comfortable sofa, coffee table, and area rug" 
+                 loading="lazy" 
+                 width="1200" 
+                 height="900" />
+            
+            <span class="card-kicker-badge badge-featured">FEATURED</span>
+            
+          </div>
+
+          <div class="inspiration-card-content">
+            <div class="inspiration-card-category">Living Area</div>
+            <h3 class="inspiration-card-title">Cozy Living Space (Wide)</h3>
+            
+            
+          </div>
+        </article>
+        <!-- Photo 15: Artistic Decor & Throw Pillows -->
+        <article class="inspiration-card is-portrait" 
+                 data-category="living" 
+                 data-orientation="portrait" 
+                 data-index="14"
+                 data-title="Artistic Decor & Throw Pillows"
+                 data-desc="Boutique apartment aesthetic with custom textured textile art"
+                 data-catname="Living Area"
+                 data-dims="1200 × 1600 (Tall · 3:4)"
+                 data-src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/4dae3cde-cba4-4222-b128-10dafec3671b.jpeg?im_w=960">
+          <div class="inspiration-img-wrap">
+            <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/4dae3cde-cba4-4222-b128-10dafec3671b.jpeg?im_w=960" 
+                 alt="Textured wall art and decorative cushions in the boutique living lounge" 
+                 loading="lazy" 
+                 width="1200" 
+                 height="1600" />
+            
+            <span class="card-kicker-badge">Living Area</span>
+            
+          </div>
+
+          <div class="inspiration-card-content">
+            <div class="inspiration-card-category">Living Area</div>
+            <h3 class="inspiration-card-title">Artistic Decor & Throw Pillows</h3>
+            
+            
+          </div>
+        </article>
+        <!-- Photo 16: Reading Nook & Side Table -->
+        <article class="inspiration-card is-portrait" 
+                 data-category="living" 
+                 data-orientation="portrait" 
+                 data-index="15"
+                 data-title="Reading Nook & Side Table"
+                 data-desc="Perfect spot for your morning espresso or evening novel"
+                 data-catname="Living Area"
+                 data-dims="1200 × 1600 (Tall · 3:4)"
+                 data-src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/79f65965-7408-49d5-a112-0b679c0e84f3.jpeg?im_w=960">
+          <div class="inspiration-img-wrap">
+            <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/79f65965-7408-49d5-a112-0b679c0e84f3.jpeg?im_w=960" 
+                 alt="Dedicated reading nook with comfortable armchair, floor lamp, and side table" 
+                 loading="lazy" 
+                 width="1200" 
+                 height="1600" />
+            
+            <span class="card-kicker-badge">Living Area</span>
+            
+          </div>
+
+          <div class="inspiration-card-content">
+            <div class="inspiration-card-category">Living Area</div>
+            <h3 class="inspiration-card-title">Reading Nook & Side Table</h3>
+            
+            
+          </div>
+        </article>
+        <!-- Photo 17: Full Modular Kitchen (Wide) -->
+        <article class="inspiration-card is-landscape" 
+                 data-category="kitchen" 
+                 data-orientation="landscape" 
+                 data-index="16"
+                 data-title="Full Modular Kitchen (Wide)"
+                 data-desc="Contemporary matte black cabinetry with sleek cooktop and exhaust"
+                 data-catname="Kitchen & Dining"
+                 data-dims="1200 × 900 (Wide · 4:3)"
+                 data-src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/3316e428-bc8e-4b34-9867-04d18295f5a6.jpeg?im_w=960">
+          <div class="inspiration-img-wrap">
+            <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/3316e428-bc8e-4b34-9867-04d18295f5a6.jpeg?im_w=960" 
+                 alt="Full modular kitchen with sleek matte black cabinetry and induction cooktop" 
+                 loading="lazy" 
+                 width="1200" 
+                 height="900" />
+            
+            <span class="card-kicker-badge badge-featured">FEATURED</span>
+            
+          </div>
+
+          <div class="inspiration-card-content">
+            <div class="inspiration-card-category">Kitchen & Dining</div>
+            <h3 class="inspiration-card-title">Full Modular Kitchen (Wide)</h3>
+            
+            
+          </div>
+        </article>
+        <!-- Photo 18: Kitchen Countertop & Appliances (Wide) -->
+        <article class="inspiration-card is-landscape" 
+                 data-category="kitchen" 
+                 data-orientation="landscape" 
+                 data-index="17"
+                 data-title="Kitchen Countertop & Appliances (Wide)"
+                 data-desc="Equipped with microwave, induction hob, kettle, and cookware"
+                 data-catname="Kitchen & Dining"
+                 data-dims="1200 × 900 (Wide · 4:3)"
+                 data-src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/2bb109e8-6977-4ff9-ba25-93f6c73bfbc9.jpeg?im_w=960">
+          <div class="inspiration-img-wrap">
+            <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/2bb109e8-6977-4ff9-ba25-93f6c73bfbc9.jpeg?im_w=960" 
+                 alt="Kitchen countertop equipped with microwave, electric kettle, and cookware" 
+                 loading="lazy" 
+                 width="1200" 
+                 height="900" />
+            
+            <span class="card-kicker-badge badge-featured">FEATURED</span>
+            
+          </div>
+
+          <div class="inspiration-card-content">
+            <div class="inspiration-card-category">Kitchen & Dining</div>
+            <h3 class="inspiration-card-title">Kitchen Countertop & Appliances (Wide)</h3>
+            
+            
+          </div>
+        </article>
+        <!-- Photo 19: Kitchen Prep Station -->
+        <article class="inspiration-card is-portrait" 
+                 data-category="kitchen" 
+                 data-orientation="portrait" 
+                 data-index="18"
+                 data-title="Kitchen Prep Station"
+                 data-desc="Clean granite sink and preparation area with filtered water"
+                 data-catname="Kitchen & Dining"
+                 data-dims="1200 × 1600 (Tall · 3:4)"
+                 data-src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/3b3f64d8-1d85-4cf5-a233-543b49b9332c.jpeg?im_w=960">
+          <div class="inspiration-img-wrap">
+            <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/3b3f64d8-1d85-4cf5-a233-543b49b9332c.jpeg?im_w=960" 
+                 alt="Granite kitchen sink and preparation counter with clean dish drying rack" 
+                 loading="lazy" 
+                 width="1200" 
+                 height="1600" />
+            
+            <span class="card-kicker-badge">Kitchen & Dining</span>
+            
+          </div>
+
+          <div class="inspiration-card-content">
+            <div class="inspiration-card-category">Kitchen & Dining</div>
+            <h3 class="inspiration-card-title">Kitchen Prep Station</h3>
+            
+            
+          </div>
+        </article>
+        <!-- Photo 20: Organized Cutlery Drawer (Wide) -->
+        <article class="inspiration-card is-landscape" 
+                 data-category="kitchen" 
+                 data-orientation="landscape" 
+                 data-index="19"
+                 data-title="Organized Cutlery Drawer (Wide)"
+                 data-desc="Full set of silverware, knives, forks, and cooking utensils"
+                 data-catname="Kitchen & Dining"
+                 data-dims="1200 × 900 (Wide · 4:3)"
+                 data-src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/505bd2a0-cc11-4209-a32d-0f17800e8a4c.jpeg?im_w=960">
+          <div class="inspiration-img-wrap">
+            <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/505bd2a0-cc11-4209-a32d-0f17800e8a4c.jpeg?im_w=960" 
+                 alt="Neatly organized cutlery drawer with stainless steel spoons, forks, and knives" 
+                 loading="lazy" 
+                 width="1200" 
+                 height="900" />
+            
+            <span class="card-kicker-badge badge-featured">FEATURED</span>
+            
+          </div>
+
+          <div class="inspiration-card-content">
+            <div class="inspiration-card-category">Kitchen & Dining</div>
+            <h3 class="inspiration-card-title">Organized Cutlery Drawer (Wide)</h3>
+            
+            
+          </div>
+        </article>
+        <!-- Photo 21: Coffee & Tea Amenities -->
+        <article class="inspiration-card is-portrait" 
+                 data-category="kitchen" 
+                 data-orientation="portrait" 
+                 data-index="20"
+                 data-title="Coffee & Tea Amenities"
+                 data-desc="Glassware, mugs, and complimentary beverage essentials"
+                 data-catname="Kitchen & Dining"
+                 data-dims="1200 × 1600 (Tall · 3:4)"
+                 data-src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/ceafd429-8430-42f0-93e2-497bad46c7c6.jpeg?im_w=960">
+          <div class="inspiration-img-wrap">
+            <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/ceafd429-8430-42f0-93e2-497bad46c7c6.jpeg?im_w=960" 
+                 alt="Coffee and tea station with ceramic mugs, glassware, and complimentary beverages" 
+                 loading="lazy" 
+                 width="1200" 
+                 height="1600" />
+            
+            <span class="card-kicker-badge">Kitchen & Dining</span>
+            
+          </div>
+
+          <div class="inspiration-card-content">
+            <div class="inspiration-card-category">Kitchen & Dining</div>
+            <h3 class="inspiration-card-title">Coffee & Tea Amenities</h3>
+            
+            
+          </div>
+        </article>
+        <!-- Photo 22: Illuminated Vanity & Bathroom -->
+        <article class="inspiration-card is-portrait" 
+                 data-category="bathroom" 
+                 data-orientation="portrait" 
+                 data-index="21"
+                 data-title="Illuminated Vanity & Bathroom"
+                 data-desc="Backlit smart mirror, modern fixtures, and hotel-quality towels"
+                 data-catname="Bathroom"
+                 data-dims="1200 × 1600 (Tall · 3:4)"
+                 data-src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/890cbb77-5967-4063-8df9-bd7771145ca7.jpeg?im_w=960">
+          <div class="inspiration-img-wrap">
+            <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/890cbb77-5967-4063-8df9-bd7771145ca7.jpeg?im_w=960" 
+                 alt="Modern designer bathroom featuring backlit LED smart mirror and walk-in shower" 
+                 loading="lazy" 
+                 width="1200" 
+                 height="1600" />
+            
+            <span class="card-kicker-badge">Bathroom</span>
+            
+          </div>
+
+          <div class="inspiration-card-content">
+            <div class="inspiration-card-category">Bathroom</div>
+            <h3 class="inspiration-card-title">Illuminated Vanity & Bathroom</h3>
+            
+            
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Empty State -->
+      <div class="gallery-empty-state" id="galleryEmptyState" style="display: none; text-align: center; padding: 3rem; background: #fff; border-radius: 12px; margin: 2rem 0;">
+        <span style="font-size: 2.5rem; display: block; margin-bottom: 0.5rem;">📷</span>
+        <h3 style="margin-bottom: 0.5rem; font-family: var(--ff-heading);">No photos in this combination</h3>
+        <p style="color: var(--clr-text-muted); margin-bottom: 1rem;">Try selecting a different room category or orientation filter.</p>
+        <button class="btn btn-teal" id="galleryResetBtn">Show All Photos</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION: ABOUT SUPERHOST GAURAV (Split Editorial About Section)
+       ========================================================================== -->
+  <section class="about-section section-padding" id="about">
+    <div class="container">
+      <div class="about-split-grid">
+        <div class="about-text-content">
+          <span class="section-kicker">Superhost Hospitality</span>
+          <h2>Welcome to Nevra Stays Hosted by Gaurav</h2>
+          <p>
+            Welcome to Nevra Stays — a personalized high-rise retreat perched on the 32nd floor of Supernova, Noida. Designed for discerning travelers seeking elegance, relaxation, and memorable moments.
+          </p>
+          <p>
+            Whether you are catching the golden hour horizon from the balcony, savoring a home-cooked dinner in the fully equipped kitchen, or resting on plush king linens, everything has been designed to make you feel right at home above the clouds.
+          </p>
+
+          <div class="about-stats-row">
+            <div class="stat-box">
+              <h4>4.88</h4>
+              <span>Airbnb Rating</span>
+            </div>
+            <div class="stat-box">
+              <h4>33+</h4>
+              <span>Guest Reviews</span>
+            </div>
+            <div class="stat-box">
+              <h4>32<sup>nd</sup></h4>
+              <span>Skyline Floor</span>
+            </div>
+          </div>
+
+          <div class="about-contact-actions">
+            <a href="https://wa.me/919560023669?text=Hi%20Gaurav%2C%20I%20would%20like%20to%20connect%20regarding%20Nevra%20Stays!" target="_blank" rel="noopener" class="btn btn-teal">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style="vertical-align: middle; margin-right: 6px;">
+                <path d="M17.472 14.382c-.301-.15-1.78-.878-2.056-.978-.276-.1-.476-.15-.677.15-.2.301-.777.978-.952 1.179-.176.2-.351.226-.652.075-.301-.15-1.27-.468-2.42-1.493-.895-.798-1.5-1.783-1.675-2.083-.176-.301-.019-.464.132-.614.135-.135.301-.351.451-.527.15-.176.2-.301.301-.501.1-.2.05-.376-.025-.526-.075-.15-.677-1.63-.927-2.233-.244-.588-.492-.508-.677-.517l-.577-.01c-.2 0-.526.075-.802.376-.276.301-1.053 1.028-1.053 2.508 0 1.48 1.078 2.909 1.229 3.109.15.2 2.121 3.238 5.138 4.542.718.311 1.278.497 1.715.636.721.23 1.377.197 1.896.12.578-.087 1.78-.727 2.031-1.429.25-.702.25-1.304.175-1.43-.075-.125-.276-.2-.577-.35zM12.04 2C6.516 2 2.023 6.49 2.023 12.01c0 1.91.539 3.693 1.472 5.215L2 22l4.945-1.442A9.972 9.972 0 0 0 12.04 22c5.523 0 10.017-4.49 10.017-10.01S17.563 2 12.04 2z"/>
+              </svg>
+              WhatsApp Gaurav
+            </a>
+            <a href="tel:+919560023669" class="btn btn-outline-dark">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              +91 95600 23669
+            </a>
+          </div>
+
+          <div class="about-social-pills">
+            <span class="social-pills-label">Follow & Connect:</span>
+            <a href="https://www.instagram.com/nevra.stay/" target="_blank" rel="noopener" class="social-pill-item ig-pill" title="Instagram: @nevra.stay">
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+              <span>@nevra.stay</span>
+            </a>
+            <a href="https://www.facebook.com/nevra.stay" target="_blank" rel="noopener" class="social-pill-item fb-pill" title="Facebook: Nevra.Stay">
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+              <span>Nevra.Stay</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Asymmetric Collage -->
+        <div class="about-collage">
+          <div class="collage-col">
+            <div class="collage-item collage-item-tall">
+              <img src="https://a0.muscache.com/im/pictures/user/User/original/a97a8c7e-0562-4ba9-a896-b41add5e39b2.jpeg?im_w=720" alt="Gaurav Superhost" loading="lazy" />
+            </div>
+            <div class="collage-item collage-item-short">
+              <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/505bd2a0-cc11-4209-a32d-0f17800e8a4c.jpeg?im_w=720" alt="Organized cutlery & kitchen amenities" loading="lazy" />
+            </div>
+          </div>
+          <div class="collage-col">
+            <div class="collage-item collage-item-short">
+              <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/ceafd429-8430-42f0-93e2-497bad46c7c6.jpeg?im_w=720" alt="Coffee and tea station" loading="lazy" />
+            </div>
+            <div class="collage-item collage-item-tall">
+              <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1645744603760645099/original/297a72e1-97bd-4519-8681-61f09cd7c048.jpeg?im_w=720" alt="Glittering night skyline view" loading="lazy" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION: AMENITIES (Clean Modern Grid)
+       ========================================================================== -->
+  <section class="amenities-section section-padding" id="amenities">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Curated Essentials</span>
+        <h2 class="section-title">Everything You Need For A Flawless Stay</h2>
+        <p class="section-subtitle">From high-speed connectivity to hotel-grade comfort, every amenity is provided for your utmost convenience.</p>
+      </div>
+
+      <div class="amenities-grid">
+        <div class="amenity-card">
+          <span class="amenity-icon" aria-hidden="true">📶</span>
+          <h3 class="amenity-title">High-Speed WiFi</h3>
+          <p class="amenity-desc">Ultra-fast optical fiber broadband suitable for video calls, remote work, and 4K streaming.</p>
+        </div>
+        <div class="amenity-card">
+          <span class="amenity-icon" aria-hidden="true">❄️</span>
+          <h3 class="amenity-title">Air Conditioning</h3>
+          <p class="amenity-desc">Powerful climate control for cool summer comfort and cozy winter temperatures.</p>
+        </div>
+        <div class="amenity-card">
+          <span class="amenity-icon" aria-hidden="true">📺</span>
+          <h3 class="amenity-title">Smart Entertainment</h3>
+          <p class="amenity-desc">Large high-definition Smart TV equipped with Netflix, Prime, YouTube, and digital apps.</p>
+        </div>
+        <div class="amenity-card">
+          <span class="amenity-icon" aria-hidden="true">🍳</span>
+          <h3 class="amenity-title">Modular Kitchen</h3>
+          <p class="amenity-desc">Equipped with induction cooktop, microwave, electric kettle, cookware, and tableware.</p>
+        </div>
+        <div class="amenity-card">
+          <span class="amenity-icon" aria-hidden="true">🏊</span>
+          <h3 class="amenity-title">Swimming Pool</h3>
+          <p class="amenity-desc">Pool access in the Supernova complex (check seasonal availability with host).</p>
+        </div>
+        <div class="amenity-card">
+          <span class="amenity-icon" aria-hidden="true">🏋️</span>
+          <h3 class="amenity-title">Fitness Center</h3>
+          <p class="amenity-desc">State-of-the-art gymnasium within the residential complex for your workout routines.</p>
+        </div>
+        <div class="amenity-card">
+          <span class="amenity-icon" aria-hidden="true">🅿️</span>
+          <h3 class="amenity-title">Free Dedicated Parking</h3>
+          <p class="amenity-desc">Secure, covered multi-level parking space included with your stay reservation.</p>
+        </div>
+        <div class="amenity-card">
+          <span class="amenity-icon" aria-hidden="true">🧺</span>
+          <h3 class="amenity-title">In-Unit Laundry</h3>
+          <p class="amenity-desc">Modern washing machine and drying rack ideal for extended or business stays.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION: REVIEWS & RATING (Authentic 4.88 Guest Favourite Style)
+       ========================================================================== -->
+  <section class="reviews-section section-padding" id="reviews">
+    <div class="container">
+      
+      <!-- Guest Favourite Top Hero Badge -->
+      <div class="rating-hero-badge">
+        <div class="laurel-wreath-container" aria-label="Rating 4.88 out of 5 stars">
+          <svg class="laurel-leaf-svg" viewBox="0 0 24 32" width="28" height="36" fill="currentColor" aria-hidden="true">
+            <path d="M12 2C10 6 5 9 2 12c4 1 8-1 10-4 0 4-3 9-7 12 4 0 7-3 8-6 0 4-2 9-5 13 4-1 7-4 7-8 1 4 4 7 8 8-3-4-5-9-5-13 1 3 4 6 8 6-4-3-7-8-7-12 2 3 6 5 10 4-3-3-8-6-10-10z" opacity="0.85"/>
+          </svg>
+          <span class="rating-score-display">4.88</span>
+          <svg class="laurel-leaf-svg" viewBox="0 0 24 32" width="28" height="36" fill="currentColor" aria-hidden="true" style="transform: scaleX(-1);">
+            <path d="M12 2C10 6 5 9 2 12c4 1 8-1 10-4 0 4-3 9-7 12 4 0 7-3 8-6 0 4-2 9-5 13 4-1 7-4 7-8 1 4 4 7 8 8-3-4-5-9-5-13 1 3 4 6 8 6-4-3-7-8-7-12 2 3 6 5 10 4-3-3-8-6-10-10z" opacity="0.85"/>
+          </svg>
+        </div>
+        <h2 class="guest-favourite-heading">Guest favourite</h2>
+        <p class="guest-favourite-subheading">This home is a guest favourite based on ratings, reviews and reliability</p>
+        <button class="how-reviews-work-btn" id="howReviewsWorkTrigger" type="button">How reviews work</button>
+      </div>
+
+      <!-- Rating Metrics Breakdown Bar -->
+      <div class="rating-metrics-scroll-wrap">
+        <div class="rating-metrics-bar">
+          
+          <!-- Overall Rating Bar Chart Column -->
+          <div class="metric-column metric-overall-col">
+            <span class="metric-title">Overall rating</span>
+            <div class="rating-distribution-stack">
+              <div class="distribution-row">
+                <span class="row-star">5</span>
+                <div class="row-track"><div class="row-fill" style="width: 88%"></div></div>
+              </div>
+              <div class="distribution-row">
+                <span class="row-star">4</span>
+                <div class="row-track"><div class="row-fill" style="width: 12%"></div></div>
+              </div>
+              <div class="distribution-row">
+                <span class="row-star">3</span>
+                <div class="row-track"><div class="row-fill" style="width: 0%"></div></div>
+              </div>
+              <div class="distribution-row">
+                <span class="row-star">2</span>
+                <div class="row-track"><div class="row-fill" style="width: 0%"></div></div>
+              </div>
+              <div class="distribution-row">
+                <span class="row-star">1</span>
+                <div class="row-track"><div class="row-fill" style="width: 0%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cleanliness -->
+          <div class="metric-column">
+            <span class="metric-title">Cleanliness</span>
+            <span class="metric-num">4.9</span>
+            <div class="metric-icon-wrap">
+              <svg viewBox="0 0 32 32" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M11 6h6M14 6v4M12 10h6l4 6-2 1h-2v11a2 2 0 0 1-2 2H10a2 2 0 0 1-2-2V17h6l-4-4V10z"/>
+                <path d="M22 6a2 2 0 0 1 2 2v2"/><circle cx="26" cy="7" r="1"/><circle cx="28" cy="11" r="1"/>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Accuracy -->
+          <div class="metric-column">
+            <span class="metric-title">Accuracy</span>
+            <span class="metric-num">4.8</span>
+            <div class="metric-icon-wrap">
+              <svg viewBox="0 0 32 32" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="16" cy="16" r="11"/><path d="m11 16 3.5 3.5 6.5-7"/>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Check-in -->
+          <div class="metric-column">
+            <span class="metric-title">Check-in</span>
+            <span class="metric-num">4.9</span>
+            <div class="metric-icon-wrap">
+              <svg viewBox="0 0 32 32" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="16" r="6"/><path d="M17 16h11M24 16v4M27 16v3"/>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Communication -->
+          <div class="metric-column">
+            <span class="metric-title">Communication</span>
+            <span class="metric-num">5.0</span>
+            <div class="metric-icon-wrap">
+              <svg viewBox="0 0 32 32" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="4" y="6" width="24" height="16" rx="4"/><path d="m10 22 4 4v-4"/>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Location -->
+          <div class="metric-column">
+            <span class="metric-title">Location</span>
+            <span class="metric-num">4.9</span>
+            <div class="metric-icon-wrap">
+              <svg viewBox="0 0 32 32" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 8l8-4 8 4 8-4v20l-8 4-8-4-8 4V8zM12 4v20M20 8v20"/>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Value -->
+          <div class="metric-column">
+            <span class="metric-title">Value</span>
+            <span class="metric-num">4.8</span>
+            <div class="metric-icon-wrap">
+              <svg viewBox="0 0 32 32" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 16l10-10h10v10l-10 10-10-10z"/><circle cx="21" cy="11" r="2"/>
+              </svg>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="rating-section-divider"></div>
+
+      <!-- Guests Mention Carousel / Filter -->
+      <div class="guests-mention-header">
+        <h3 class="guests-mention-title">Guests mention</h3>
+      </div>
+      <div class="mentions-carousel-container">
+        <button class="mentions-nav-btn mentions-nav-prev" id="mentionsPrevBtn" aria-label="Previous mentions" type="button">
+          <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/></svg>
+        </button>
+        <div class="mentions-pills-track" id="mentionsTrack">
+          
+  <button class="mention-pill" data-mention="Hospitality" type="button">
+    <span class="mention-emoji" aria-hidden="true" style="font-size: 1.1rem; margin-right: 4px;">🤝</span>
+    <span class="mention-name">Hospitality</span>
+    <span class="mention-count">23</span>
+  </button>
+
+
+  <button class="mention-pill" data-mention="View" type="button">
+    <span class="mention-emoji" aria-hidden="true" style="font-size: 1.1rem; margin-right: 4px;">🌅</span>
+    <span class="mention-name">View</span>
+    <span class="mention-count">6</span>
+  </button>
+
+
+  <button class="mention-pill" data-mention="Accuracy" type="button">
+    <span class="mention-emoji" aria-hidden="true" style="font-size: 1.1rem; margin-right: 4px;">🎯</span>
+    <span class="mention-name">Accuracy</span>
+    <span class="mention-count">5</span>
+  </button>
+
+
+  <button class="mention-pill" data-mention="Comfort" type="button">
+    <span class="mention-emoji" aria-hidden="true" style="font-size: 1.1rem; margin-right: 4px;">🛋️</span>
+    <span class="mention-name">Comfort</span>
+    <span class="mention-count">7</span>
+  </button>
+
+
+  <button class="mention-pill" data-mention="Condition" type="button">
+    <span class="mention-emoji" aria-hidden="true" style="font-size: 1.1rem; margin-right: 4px;">✨</span>
+    <span class="mention-name">Condition</span>
+    <span class="mention-count">3</span>
+  </button>
+
+
+  <button class="mention-pill" data-mention="Amenities" type="button">
+    <span class="mention-emoji" aria-hidden="true" style="font-size: 1.1rem; margin-right: 4px;">🏊</span>
+    <span class="mention-name">Amenities</span>
+    <span class="mention-count">3</span>
+  </button>
+
+
+  <button class="mention-pill" data-mention="Cleanliness" type="button">
+    <span class="mention-emoji" aria-hidden="true" style="font-size: 1.1rem; margin-right: 4px;">🧼</span>
+    <span class="mention-name">Cleanliness</span>
+    <span class="mention-count">7</span>
+  </button>
+
+
+  <button class="mention-pill" data-mention="Check-in" type="button">
+    <span class="mention-emoji" aria-hidden="true" style="font-size: 1.1rem; margin-right: 4px;">🔑</span>
+    <span class="mention-name">Check-in</span>
+    <span class="mention-count">3</span>
+  </button>
+
+
+  <button class="mention-pill" data-mention="Decor" type="button">
+    <span class="mention-emoji" aria-hidden="true" style="font-size: 1.1rem; margin-right: 4px;">🖼️</span>
+    <span class="mention-name">Decor</span>
+    <span class="mention-count">2</span>
+  </button>
+
+
+  <button class="mention-pill" data-mention="Indoor spaces" type="button">
+    <span class="mention-emoji" aria-hidden="true" style="font-size: 1.1rem; margin-right: 4px;">🏠</span>
+    <span class="mention-name">Indoor spaces</span>
+    <span class="mention-count">3</span>
+  </button>
+
+        </div>
+        <button class="mentions-nav-btn mentions-nav-next" id="mentionsNextBtn" aria-label="Next mentions" type="button">
+          <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>
+        </button>
+      </div>
+
+      <!-- 2-Column Reviews Grid (Featured Top 6 Reviews) -->
+      <div class="airbnb-reviews-grid" id="mainReviewsGrid">
+        
+    <article class="airbnb-review-card" data-review-id="1">
+      <div class="reviewer-header">
+        <img src="https://a0.muscache.com/im/pictures/user/User/original/42fe590e-43a2-4d15-a2aa-616ef8fa7ef6.jpeg?im_w=120" alt="Ankit" class="reviewer-avatar" loading="lazy" onerror="this.src='https://a0.muscache.com/im/Portrait/Avatars/v2/blue?im_w=120&im_t=A&im_s=43&im_f=AirbnbCerealLatinMedium.ttf&im_c=0d4daa&script=latin';" />
+        <div class="reviewer-meta">
+          <h3 class="reviewer-name">Ankit</h3>
+          <div class="reviewer-tenure">4 months on Airbnb</div>
+        </div>
+      </div>
+      <div class="review-rating-timeline">
+        <span class="review-stars-airbnb">★★★★★</span>
+        <span class="timeline-dot">&middot;</span>
+        <span class="review-timeline">1 week ago</span>
+      </div>
+      <div class="review-body">
+        <p class="review-full-text" data-full="The property was well maintained and beautifully decorated, making it a very comfortable stay. It was also easy to find. The host was incredibly responsive and helpful throughout our visit. I would definitely look to stay here again!" data-truncated="The property was well maintained and beautifully decorated, making it a very comfortable stay. It was also easy to find. The host was incredibly responsive and helpful throughout our visit. I would definitely l...">
+          The property was well maintained and beautifully decorated, making it a very comfortable stay. It was also easy to find. The host was incredibly responsive and helpful throughout our visit. I would definitely l...
+        </p>
+        <button class="review-expand-btn" type="button">Show more &gt;</button>
+      </div>
+      
+      <div class="host-response-box">
+        <div class="host-response-header">
+          <img src="https://a0.muscache.com/im/pictures/user/User/original/a97a8c7e-0562-4ba9-a896-b41add5e39b2.jpeg?im_w=120" alt="Gaurav" class="host-avatar" loading="lazy" />
+          <div>
+            <div class="host-name">Response from Gaurav</div>
+            <div class="host-date">1 week ago</div>
+          </div>
+        </div>
+        <p class="host-text">Thanku so much ankit</p>
+      </div>
+    
+    </article>
+  
+
+    <article class="airbnb-review-card" data-review-id="2">
+      <div class="reviewer-header">
+        <img src="https://a0.muscache.com/im/pictures/user/User/original/f514b340-53f7-49fa-adce-e7934cd9401f.jpeg?im_w=120" alt="Harsh" class="reviewer-avatar" loading="lazy" onerror="this.src='https://a0.muscache.com/im/Portrait/Avatars/v2/blue?im_w=120&im_t=H&im_s=43&im_f=AirbnbCerealLatinMedium.ttf&im_c=0d4daa&script=latin';" />
+        <div class="reviewer-meta">
+          <h3 class="reviewer-name">Harsh</h3>
+          <div class="reviewer-tenure">2 years on Airbnb</div>
+        </div>
+      </div>
+      <div class="review-rating-timeline">
+        <span class="review-stars-airbnb">★★★★★</span>
+        <span class="timeline-dot">&middot;</span>
+        <span class="review-timeline">1 week ago</span>
+      </div>
+      <div class="review-body">
+        <p class="review-full-text" >
+          One of the best places I’ve ever visited, the view is to die for literally!! Highly responsive, highly recommend this place. Will definitely visit again.
+        </p>
+        
+      </div>
+      
+      <div class="host-response-box">
+        <div class="host-response-header">
+          <img src="https://a0.muscache.com/im/pictures/user/User/original/a97a8c7e-0562-4ba9-a896-b41add5e39b2.jpeg?im_w=120" alt="Gaurav" class="host-avatar" loading="lazy" />
+          <div>
+            <div class="host-name">Response from Gaurav</div>
+            <div class="host-date">1 week ago</div>
+          </div>
+        </div>
+        <p class="host-text">Thankyou bhai 🥰</p>
+      </div>
+    
+    </article>
+  
+
+    <article class="airbnb-review-card" data-review-id="3">
+      <div class="reviewer-header">
+        <img src="https://a0.muscache.com/im/pictures/user/70e28dae-33cc-4dd0-89a0-f78d74933e1d.jpg?im_w=120" alt="Ekta" class="reviewer-avatar" loading="lazy" onerror="this.src='https://a0.muscache.com/im/Portrait/Avatars/v2/blue?im_w=120&im_t=E&im_s=43&im_f=AirbnbCerealLatinMedium.ttf&im_c=0d4daa&script=latin';" />
+        <div class="reviewer-meta">
+          <h3 class="reviewer-name">Ekta</h3>
+          <div class="reviewer-tenure">6 years on Airbnb</div>
+        </div>
+      </div>
+      <div class="review-rating-timeline">
+        <span class="review-stars-airbnb">★★★★★</span>
+        <span class="timeline-dot">&middot;</span>
+        <span class="review-timeline">3 days ago</span>
+      </div>
+      <div class="review-body">
+        <p class="review-full-text" >
+          Great host, highly recommended.
+        </p>
+        
+      </div>
+      
+      <div class="host-response-box">
+        <div class="host-response-header">
+          <img src="https://a0.muscache.com/im/pictures/user/User/original/a97a8c7e-0562-4ba9-a896-b41add5e39b2.jpeg?im_w=120" alt="Gaurav" class="host-avatar" loading="lazy" />
+          <div>
+            <div class="host-name">Response from Gaurav</div>
+            <div class="host-date">3 days ago</div>
+          </div>
+        </div>
+        <p class="host-text">Thanku so much 🥰</p>
+      </div>
+    
+    </article>
+  
+
+    <article class="airbnb-review-card" data-review-id="4">
+      <div class="reviewer-header">
+        <img src="https://a0.muscache.com/im/pictures/user/User/original/60ec7d59-55aa-4459-8d61-7af997e162c5.jpeg?im_w=120" alt="Kaif" class="reviewer-avatar" loading="lazy" onerror="this.src='https://a0.muscache.com/im/Portrait/Avatars/v2/blue?im_w=120&im_t=K&im_s=43&im_f=AirbnbCerealLatinMedium.ttf&im_c=0d4daa&script=latin';" />
+        <div class="reviewer-meta">
+          <h3 class="reviewer-name">Kaif</h3>
+          <div class="reviewer-tenure">2 years on Airbnb</div>
+        </div>
+      </div>
+      <div class="review-rating-timeline">
+        <span class="review-stars-airbnb">★★★★☆</span>
+        <span class="timeline-dot">&middot;</span>
+        <span class="review-timeline">2 weeks ago</span>
+      </div>
+      <div class="review-body">
+        <p class="review-full-text" data-full="I booked this property for my friend, and overall the experience was fairly smooth. The check-in process was smooth, and the unit was clean and well-maintained. The kitchen and other facilities were also available.
+However, the main issue was that the unit provided was different from the one booked, and a few basic amenities such as towels and tissues were missing. My friend also mentioned some issue with the lock on the gate. I informed the host as soon as I came to know about these issues, although I received a response only the following morning.
+Since it was a short stay, I did not make a big issue out of it and asked my friend to manage with whatever was available. In fact, my friend had to order the missing essentials through Blinkit and manage them on his own. Apart from these points, the unit itself was clean and the overall stay was okay. Hopefully, the host can ensure that the listed unit and basic amenities are provided properly for future guests." data-truncated="I booked this property for my friend, and overall the experience was fairly smooth. The check-in process was smooth, and the unit was clean and well-maintained. The kitchen and other facilities were also availa...">
+          I booked this property for my friend, and overall the experience was fairly smooth. The check-in process was smooth, and the unit was clean and well-maintained. The kitchen and other facilities were also availa...
+        </p>
+        <button class="review-expand-btn" type="button">Show more &gt;</button>
+      </div>
+      
+      <div class="host-response-box">
+        <div class="host-response-header">
+          <img src="https://a0.muscache.com/im/pictures/user/User/original/a97a8c7e-0562-4ba9-a896-b41add5e39b2.jpeg?im_w=120" alt="Gaurav" class="host-avatar" loading="lazy" />
+          <div>
+            <div class="host-name">Response from Gaurav</div>
+            <div class="host-date">1 week ago</div>
+          </div>
+        </div>
+        <p class="host-text">Thank you for your feedback, Kaif. I sincerely apologize for the inconvenience with the unit assignment and the missing essentials. We have since updated our late-arrival check-in procedures to ensure all supplies are completely stocked in advance, regardless of the booking hour. We appreciate your patience and look forward to welcoming you back for a seamless stay.</p>
+      </div>
+    
+    </article>
+  
+
+    <article class="airbnb-review-card" data-review-id="5">
+      <div class="reviewer-header">
+        <img src="https://a0.muscache.com/im/pictures/user/User/original/1dab98a3-7414-4d2b-a386-53ced44e30a6.jpeg?im_w=120" alt="Mohd" class="reviewer-avatar" loading="lazy" onerror="this.src='https://a0.muscache.com/im/Portrait/Avatars/v2/blue?im_w=120&im_t=M&im_s=43&im_f=AirbnbCerealLatinMedium.ttf&im_c=0d4daa&script=latin';" />
+        <div class="reviewer-meta">
+          <h3 class="reviewer-name">Mohd</h3>
+          <div class="reviewer-tenure">2 years on Airbnb</div>
+        </div>
+      </div>
+      <div class="review-rating-timeline">
+        <span class="review-stars-airbnb">★★★★★</span>
+        <span class="timeline-dot">&middot;</span>
+        <span class="review-timeline">August 2026</span>
+      </div>
+      <div class="review-body">
+        <p class="review-full-text" data-full="This Airbnb exceeded our expectations. The apartment was well-equipped, beautifully decorated, and quiet. The host provided clear instructions, was quick to respond to messages, and offered great local recommendations. A truly seamless experience from start to finish." data-truncated="This Airbnb exceeded our expectations. The apartment was well-equipped, beautifully decorated, and quiet. The host provided clear instructions, was quick to respond to messages, and offered great local recommen...">
+          This Airbnb exceeded our expectations. The apartment was well-equipped, beautifully decorated, and quiet. The host provided clear instructions, was quick to respond to messages, and offered great local recommen...
+        </p>
+        <button class="review-expand-btn" type="button">Show more &gt;</button>
+      </div>
+      
+      <div class="host-response-box">
+        <div class="host-response-header">
+          <img src="https://a0.muscache.com/im/pictures/user/User/original/a97a8c7e-0562-4ba9-a896-b41add5e39b2.jpeg?im_w=120" alt="Gaurav" class="host-avatar" loading="lazy" />
+          <div>
+            <div class="host-name">Response from Gaurav</div>
+            <div class="host-date">2 weeks ago</div>
+          </div>
+        </div>
+        <p class="host-text">Thanku so much brother</p>
+      </div>
+    
+    </article>
+  
+
+    <article class="airbnb-review-card" data-review-id="6">
+      <div class="reviewer-header">
+        <img src="https://a0.muscache.com/im/Portrait/Avatars/v2/blue?im_w=120&im_t=G&im_s=43&im_f=AirbnbCerealLatinMedium.ttf&im_c=0d4daa&script=latin" alt="Gaurav" class="reviewer-avatar" loading="lazy" onerror="this.src='https://a0.muscache.com/im/Portrait/Avatars/v2/blue?im_w=120&im_t=G&im_s=43&im_f=AirbnbCerealLatinMedium.ttf&im_c=0d4daa&script=latin';" />
+        <div class="reviewer-meta">
+          <h3 class="reviewer-name">Gaurav</h3>
+          <div class="reviewer-tenure">5 years on Airbnb</div>
+        </div>
+      </div>
+      <div class="review-rating-timeline">
+        <span class="review-stars-airbnb">★★★★★</span>
+        <span class="timeline-dot">&middot;</span>
+        <span class="review-timeline">2 weeks ago</span>
+      </div>
+      <div class="review-body">
+        <p class="review-full-text" >
+          It was an amazing experience staying at this bnb<br/>Thank you for the lovely stay
+        </p>
+        
+      </div>
+      
+      <div class="host-response-box">
+        <div class="host-response-header">
+          <img src="https://a0.muscache.com/im/pictures/user/User/original/a97a8c7e-0562-4ba9-a896-b41add5e39b2.jpeg?im_w=120" alt="Gaurav" class="host-avatar" loading="lazy" />
+          <div>
+            <div class="host-name">Response from Gaurav</div>
+            <div class="host-date">2 weeks ago</div>
+          </div>
+        </div>
+        <p class="host-text">Thankyou gaurav</p>
+      </div>
+    
+    </article>
+  
+      </div>
+
+      <!-- "Show all 33 reviews" Action Button -->
+      <div class="show-all-reviews-action">
+        <button class="btn-show-all-reviews" id="openAllReviewsBtn" type="button">
+          Show all 33 reviews
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       MODAL: FULL 33 AIRBNB REVIEWS (Matching Reference Image 4)
+       ========================================================================== -->
+  <div class="reviews-modal-overlay" id="reviewsModalOverlay" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalGuestFavouriteTitle">
+    <div class="reviews-modal-window">
+      
+      <!-- Top Sticky Header with Close Button -->
+      <div class="reviews-modal-header">
+        <button class="reviews-modal-close-btn" id="closeReviewsModalBtn" aria-label="Close reviews dialog" type="button">
+          &times;
+        </button>
+      </div>
+
+      <!-- Scrollable Modal Body -->
+      <div class="reviews-modal-scroll" id="reviewsModalScroll">
+        
+        <!-- Modal Top Guest Favourite Banner -->
+        <div class="modal-rating-badge">
+          <div class="laurel-wreath-container modal-laurel" aria-label="Rating 4.88 out of 5 stars">
+            <svg class="laurel-leaf-svg" viewBox="0 0 24 32" width="28" height="36" fill="currentColor" aria-hidden="true">
+              <path d="M12 2C10 6 5 9 2 12c4 1 8-1 10-4 0 4-3 9-7 12 4 0 7-3 8-6 0 4-2 9-5 13 4-1 7-4 7-8 1 4 4 7 8 8-3-4-5-9-5-13 1 3 4 6 8 6-4-3-7-8-7-12 2 3 6 5 10 4-3-3-8-6-10-10z" opacity="0.85"/>
+            </svg>
+            <span class="rating-score-display">4.88</span>
+            <svg class="laurel-leaf-svg" viewBox="0 0 24 32" width="28" height="36" fill="currentColor" aria-hidden="true" style="transform: scaleX(-1);">
+              <path d="M12 2C10 6 5 9 2 12c4 1 8-1 10-4 0 4-3 9-7 12 4 0 7-3 8-6 0 4-2 9-5 13 4-1 7-4 7-8 1 4 4 7 8 8-3-4-5-9-5-13 1 3 4 6 8 6-4-3-7-8-7-12 2 3 6 5 10 4-3-3-8-6-10-10z" opacity="0.85"/>
+            </svg>
+          </div>
+          <h2 class="guest-favourite-heading modal-title" id="modalGuestFavouriteTitle">Guest favourite</h2>
+          <p class="guest-favourite-subheading modal-sub">This home is a guest favourite based on ratings, reviews and reliability</p>
+        </div>
+
+        <!-- Rating Metrics Inside Modal -->
+        <div class="modal-metrics-wrap">
+          <div class="rating-metrics-bar modal-metrics-bar">
+            
+            <div class="metric-column metric-overall-col">
+              <span class="metric-title">Overall rating</span>
+              <div class="rating-distribution-stack">
+                <div class="distribution-row"><span class="row-star">5</span><div class="row-track"><div class="row-fill" style="width: 88%"></div></div></div>
+                <div class="distribution-row"><span class="row-star">4</span><div class="row-track"><div class="row-fill" style="width: 12%"></div></div></div>
+                <div class="distribution-row"><span class="row-star">3</span><div class="row-track"><div class="row-fill" style="width: 0%"></div></div></div>
+                <div class="distribution-row"><span class="row-star">2</span><div class="row-track"><div class="row-fill" style="width: 0%"></div></div></div>
+                <div class="distribution-row"><span class="row-star">1</span><div class="row-track"><div class="row-fill" style="width: 0%"></div></div></div>
+              </div>
+            </div>
+
+            <div class="metric-column">
+              <span class="metric-title">Cleanliness</span>
+              <span class="metric-num">4.9</span>
+              <div class="metric-icon-wrap">
+                <svg viewBox="0 0 32 32" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M11 6h6M14 6v4M12 10h6l4 6-2 1h-2v11a2 2 0 0 1-2 2H10a2 2 0 0 1-2-2V17h6l-4-4V10z"/>
+                  <path d="M22 6a2 2 0 0 1 2 2v2"/><circle cx="26" cy="7" r="1"/><circle cx="28" cy="11" r="1"/>
+                </svg>
+              </div>
+            </div>
+
+            <div class="metric-column">
+              <span class="metric-title">Accuracy</span>
+              <span class="metric-num">4.8</span>
+              <div class="metric-icon-wrap">
+                <svg viewBox="0 0 32 32" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="16" cy="16" r="11"/><path d="m11 16 3.5 3.5 6.5-7"/>
+                </svg>
+              </div>
+            </div>
+
+            <div class="metric-column">
+              <span class="metric-title">Check-in</span>
+              <span class="metric-num">4.9</span>
+              <div class="metric-icon-wrap">
+                <svg viewBox="0 0 32 32" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="11" cy="16" r="6"/><path d="M17 16h11M24 16v4M27 16v3"/>
+                </svg>
+              </div>
+            </div>
+
+            <div class="metric-column">
+              <span class="metric-title">Communication</span>
+              <span class="metric-num">5.0</span>
+              <div class="metric-icon-wrap">
+                <svg viewBox="0 0 32 32" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="4" y="6" width="24" height="16" rx="4"/><path d="m10 22 4 4v-4"/>
+                </svg>
+              </div>
+            </div>
+
+            <div class="metric-column">
+              <span class="metric-title">Location</span>
+              <span class="metric-num">4.9</span>
+              <div class="metric-icon-wrap">
+                <svg viewBox="0 0 32 32" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 8l8-4 8 4 8-4v20l-8 4-8-4-8 4V8zM12 4v20M20 8v20"/>
+                </svg>
+              </div>
+            </div>
+
+            <div class="metric-column">
+              <span class="metric-title">Value</span>
+              <span class="metric-num">4.8</span>
+              <div class="metric-icon-wrap">
+                <svg viewBox="0 0 32 32" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 16l10-10h10v10l-10 10-10-10z"/><circle cx="21" cy="11" r="2"/>
+                </svg>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="rating-section-divider"></div>
+
+        <!-- Guests mention Inside Modal -->
+        <div class="modal-mentions-section">
+          <div class="guests-mention-header">
+            <h3 class="guests-mention-title">Guests mention</h3>
+          </div>
+          <div class="mentions-carousel-container modal-mentions-container">
+            <button class="mentions-nav-btn mentions-nav-prev" id="modalMentionsPrevBtn" aria-label="Previous mentions" type="button">
+              <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/></svg>
+            </button>
+            <div class="mentions-pills-track" id="modalMentionsTrack">
+              
+  <button class="mention-pill" data-mention="Hospitality" type="button">
+    <span class="mention-emoji" aria-hidden="true" style="font-size: 1.1rem; margin-right: 4px;">🤝</span>
+    <span class="mention-name">Hospitality</span>
+    <span class="mention-count">23</span>
+  </button>
+
+
+  <button class="mention-pill" data-mention="View" type="button">
+    <span class="mention-emoji" aria-hidden="true" style="font-size: 1.1rem; margin-right: 4px;">🌅</span>
+    <span class="mention-name">View</span>
+    <span class="mention-count">6</span>
+  </button>
+
+
+  <button class="mention-pill" data-mention="Accuracy" type="button">
+    <span class="mention-emoji" aria-hidden="true" style="font-size: 1.1rem; margin-right: 4px;">🎯</span>
+    <span class="mention-name">Accuracy</span>
+    <span class="mention-count">5</span>
+  </button>
+
+
+  <button class="mention-pill" data-mention="Comfort" type="button">
+    <span class="mention-emoji" aria-hidden="true" style="font-size: 1.1rem; margin-right: 4px;">🛋️</span>
+    <span class="mention-name">Comfort</span>
+    <span class="mention-count">7</span>
+  </button>
+
+
+  <button class="mention-pill" data-mention="Condition" type="button">
+    <span class="mention-emoji" aria-hidden="true" style="font-size: 1.1rem; margin-right: 4px;">✨</span>
+    <span class="mention-name">Condition</span>
+    <span class="mention-count">3</span>
+  </button>
+
+
+  <button class="mention-pill" data-mention="Amenities" type="button">
+    <span class="mention-emoji" aria-hidden="true" style="font-size: 1.1rem; margin-right: 4px;">🏊</span>
+    <span class="mention-name">Amenities</span>
+    <span class="mention-count">3</span>
+  </button>
+
+
+  <button class="mention-pill" data-mention="Cleanliness" type="button">
+    <span class="mention-emoji" aria-hidden="true" style="font-size: 1.1rem; margin-right: 4px;">🧼</span>
+    <span class="mention-name">Cleanliness</span>
+    <span class="mention-count">7</span>
+  </button>
+
+
+  <button class="mention-pill" data-mention="Check-in" type="button">
+    <span class="mention-emoji" aria-hidden="true" style="font-size: 1.1rem; margin-right: 4px;">🔑</span>
+    <span class="mention-name">Check-in</span>
+    <span class="mention-count">3</span>
+  </button>
+
+
+  <button class="mention-pill" data-mention="Decor" type="button">
+    <span class="mention-emoji" aria-hidden="true" style="font-size: 1.1rem; margin-right: 4px;">🖼️</span>
+    <span class="mention-name">Decor</span>
+    <span class="mention-count">2</span>
+  </button>
+
+
+  <button class="mention-pill" data-mention="Indoor spaces" type="button">
+    <span class="mention-emoji" aria-hidden="true" style="font-size: 1.1rem; margin-right: 4px;">🏠</span>
+    <span class="mention-name">Indoor spaces</span>
+    <span class="mention-count">3</span>
+  </button>
+
+            </div>
+            <button class="mentions-nav-btn mentions-nav-next" id="modalMentionsNextBtn" aria-label="Next mentions" type="button">
+              <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="rating-section-divider"></div>
+
+        <!-- Reviews Header Bar: Count, Sort Dropdown & Search Bar -->
+        <div class="modal-reviews-toolbar">
+          <div class="modal-reviews-counter" id="modalReviewsCounter">
+            33 reviews
+          </div>
+          
+          <div class="modal-reviews-controls">
+            <!-- Sort dropdown -->
+            <div class="sort-dropdown-wrap">
+              <select id="modalSortSelect" class="modal-sort-select" aria-label="Sort reviews">
+                <option value="relevant">Most relevant</option>
+                <option value="newest">Most recent</option>
+                <option value="highest">Highest rated</option>
+                <option value="lowest">Lowest rated</option>
+              </select>
+            </div>
+
+            <!-- Search Toggle -->
+            <div class="search-toggle-wrap">
+              <button class="btn-search-toggle" id="modalSearchToggleBtn" aria-label="Search reviews" type="button">
+                <svg viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="14" cy="14" r="9"/><path d="m21 21 7 7"/>
+                </svg>
+              </button>
+              <div class="search-input-container" id="modalSearchInputContainer">
+                <input type="text" id="modalSearchInput" class="modal-search-input" placeholder="Search reviews..." aria-label="Search reviews by keyword" />
+                <button class="search-clear-btn" id="modalSearchClearBtn" aria-label="Clear search" type="button">&times;</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Full Reviews List Container in Modal -->
+        <div class="modal-reviews-list" id="modalReviewsList">
+          <!-- Dynamically populated or pre-rendered with all 33 reviews -->
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       SECTION: LOCATION & NEIGHBORHOOD
+       ========================================================================== -->
+  <!-- ==========================================================================
+       SECTION: LOCATION & NEIGHBORHOOD (Airbnb-Inspired Precise Pinpoint Explorer)
+       ========================================================================== -->
+  <section class="location-section section-padding" id="location">
+    <div class="container">
+      <div class="section-header text-left">
+        <span class="section-kicker">Prime Noida Connectivity</span>
+        <h2 class="section-title">Where you'll be</h2>
+        <p class="section-location-address">Noida, Uttar Pradesh, India</p>
+      </div>
+
+      <!-- Airbnb-Inspired Interactive Location Map Card -->
+      <div class="airbnb-map-wrapper" id="mapWrapper">
+        <div id="locationMap" class="airbnb-location-map">
+          <noscript>
+            <div class="map-fallback-banner">
+              <h3 style="font-size: 1.1rem; color: #1e293b; margin-bottom: 0.5rem;">Supernova, Sector 94, Noida</h3>
+              <p style="color: #64748b; font-size: 0.9rem; margin-bottom: 1rem;">JavaScript is required to display the interactive map. Open the listing location directly:</p>
+              <a href="https://www.google.com/maps/search/?api=1&query=Supernova+Sector+94+Noida" target="_blank" rel="noopener" class="btn btn-teal">
+                Open in Google Maps &nearr;
+              </a>
+            </div>
+          </noscript>
+        </div>
+
+        <!-- Floating Left Search & Category Explorer (Exact Inspiration from Reference Image) -->
+        <div class="map-floating-panel" id="mapFloatingPanel">
+          <!-- Search Box -->
+          <div class="map-search-box" id="mapSearchBox" role="search" aria-label="Search nearby places">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="mapLocalSearch" placeholder="Try a local" aria-label="Search nearby places" autocomplete="off" />
+            <button class="map-search-clear" id="mapSearchClear" aria-label="Clear location search" type="button">&times;</button>
+          </div>
+
+          <!-- Category Filter List -->
+          <div class="map-category-card" id="mapCategoryCard" role="tablist" aria-label="Nearby categories">
+            <button class="map-cat-item" data-category="restaurants" type="button">
+              <span class="cat-icon-circle cat-orange">
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
+                  <path d="M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z"/>
+                </svg>
+              </span>
+              <span class="cat-label">Restaurants</span>
+            </button>
+
+            <button class="map-cat-item" data-category="groceries" type="button">
+              <span class="cat-icon-circle cat-blue">
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
+                  <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/>
+                </svg>
+              </span>
+              <span class="cat-label">Groceries</span>
+            </button>
+
+            <button class="map-cat-item" data-category="shopping" type="button">
+              <span class="cat-icon-circle cat-skyblue">
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
+                  <path d="M19 6h-2c0-2.76-2.24-5-5-5S7 3.24 7 6H5c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-7-3c1.66 0 3 1.34 3 3H9c0-1.66 1.34-3 3-3zm7 17H5V8h14v12zm-7-8c-1.66 0-3-1.34-3-3H7c0 2.76 2.24 5 5 5s5-2.24 5-5h-2c0 1.66-1.34 3-3 3z"/>
+                </svg>
+              </span>
+              <span class="cat-label">Shopping</span>
+            </button>
+
+            <button class="map-cat-item" data-category="transport" type="button">
+              <span class="cat-icon-circle cat-teal">
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
+                  <path d="M12 2c-4 0-8 .5-8 4v9.5C4 17.43 5.57 19 7.5 19L6 20.5v.5h12v-.5L16.5 19c1.93 0 3.5-1.57 3.5-3.5V6c0-3.5-4-4-8-4zm0 2c3.71 0 5.13.46 5.67 1H6.33c.54-.54 1.96-1 5.67-1zm-6 8V7h12v5H6zm2 4.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm8 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
+                </svg>
+              </span>
+              <span class="cat-label">Transport</span>
+            </button>
+
+            <button class="map-cat-item" data-category="attractions" type="button">
+              <span class="cat-icon-circle cat-purple">
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
+                  <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                </svg>
+              </span>
+              <span class="cat-label">Attractions</span>
+            </button>
+
+            <button class="map-cat-item" data-category="cafe" type="button">
+              <span class="cat-icon-circle cat-amber">
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
+                  <path d="M20 3H4v10c0 2.21 1.79 4 4 4h6c2.21 0 4-1.79 4-4v-3h2c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 5h-2V5h2v3zM4 19h16v2H4z"/>
+                </svg>
+              </span>
+              <span class="cat-label">Café</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Floating Right Controls (Fullscreen, Zoom In/Out, StreetView) -->
+        <div class="map-right-controls">
+          <button class="map-ctrl-btn" id="mapFullscreenBtn" title="Toggle Fullscreen" aria-label="Toggle Fullscreen" type="button">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <polyline points="9 21 3 21 3 15"></polyline>
+              <line x1="21" y1="3" x2="14" y2="10"></line>
+              <line x1="3" y1="21" x2="10" y2="14"></line>
+            </svg>
+          </button>
+
+          <div class="map-zoom-group">
+            <button class="map-ctrl-btn" id="mapZoomInBtn" title="Zoom In" aria-label="Zoom In" type="button">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+            </button>
+            <div class="map-zoom-divider"></div>
+            <button class="map-ctrl-btn" id="mapZoomOutBtn" title="Zoom Out" aria-label="Zoom Out" type="button">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+            </button>
+          </div>
+
+          <a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=28.54318,77.3218" 
+             target="_blank" 
+             rel="noopener" 
+             class="map-ctrl-btn map-pegman-btn" 
+             title="Open Street View 360°" 
+             aria-label="Open Street View 360°">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="#f59e0b">
+              <circle cx="12" cy="4" r="2.5"/>
+              <path d="M15 8h-6c-1.1 0-2 .9-2 2v6h2.5v6h3v-6h1v6h3v-6H19v-6c0-1.1-.9-2-2-2z"/>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Google Watermark & Open in Maps Link Bar at Bottom -->
+        <div class="map-bottom-bar">
+          <!-- Google badge removed; map uses OpenStreetMap tiles with attribution -->
+          <a href="https://www.google.com/maps/search/?api=1&query=Supernova+Sector+94+Noida" target="_blank" rel="noopener" class="map-open-native-btn">
+            Open in Google Maps &nearr;
+          </a>
+        </div>
+      </div>
+
+      <!-- Nearby Transit & Travel Time Grid -->
+      <div class="location-highlights-grid">
+        <div class="location-highlight-chip">
+          <span class="chip-icon" aria-hidden="true">🚇</span>
+          <div>
+            <div class="chip-name">Okhla Bird Sanctuary Metro</div>
+            <div class="chip-detail">Nearby · Magenta Line (verify walk time with host)</div>
+          </div>
+        </div>
+        <div class="location-highlight-chip">
+          <span class="chip-icon" aria-hidden="true">🛍️</span>
+          <div>
+            <div class="chip-name">DLF Mall of India & Sector 18</div>
+            <div class="chip-detail">7 min drive · Luxury retail, dining & multiplexes</div>
+          </div>
+        </div>
+        <div class="location-highlight-chip">
+          <span class="chip-icon" aria-hidden="true">🏢</span>
+          <div>
+            <div class="chip-name">Noida Commercial & Tech Hub</div>
+            <div class="chip-detail">8 min drive · Advant Navis, Express Trade Towers</div>
+          </div>
+        </div>
+        <div class="location-highlight-chip">
+          <span class="chip-icon" aria-hidden="true">✈️</span>
+          <div>
+            <div class="chip-name">IGI Airport (DEL) & Connaught Place</div>
+            <div class="chip-detail">Seamless signal-free access via Expressways & Magenta Metro</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER (Minimalist Editorial Footer)
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand-title">Nevra<span>Stays</span></div>
+          <p class="footer-brand-desc">A 32nd-floor luxury apartment retreat in the iconic Supernova skyscraper, Sector 94, Noida. Hosted with care by Superhost Gaurav.</p>
+          <div class="footer-social-links">
+            <a href="https://www.instagram.com/nevra.stay/" target="_blank" rel="noopener" class="social-ig" aria-label="Instagram @nevra.stay" title="Instagram: @nevra.stay">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/nevra.stay" target="_blank" rel="noopener" class="social-fb" aria-label="Facebook Nevra.Stay" title="Facebook: Nevra.Stay">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+            </a>
+            <a href="https://wa.me/919560023669" target="_blank" rel="noopener" class="social-wa" aria-label="WhatsApp +91 95600 23669" title="WhatsApp: +91 95600 23669">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                <path d="M17.472 14.382c-.301-.15-1.78-.878-2.056-.978-.276-.1-.476-.15-.677.15-.2.301-.777.978-.952 1.179-.176.2-.351.226-.652.075-.301-.15-1.27-.468-2.42-1.493-.895-.798-1.5-1.783-1.675-2.083-.176-.301-.019-.464.132-.614.135-.135.301-.351.451-.527.15-.176.2-.301.301-.501.1-.2.05-.376-.025-.526-.075-.15-.677-1.63-.927-2.233-.244-.588-.492-.508-.677-.517l-.577-.01c-.2 0-.526.075-.802.376-.276.301-1.053 1.028-1.053 2.508 0 1.48 1.078 2.909 1.229 3.109.15.2 2.121 3.238 5.138 4.542.718.311 1.278.497 1.715.636.721.23 1.377.197 1.896.12.578-.087 1.78-.727 2.031-1.429.25-.702.25-1.304.175-1.43-.075-.125-.276-.2-.577-.35zM12.04 2C6.516 2 2.023 6.49 2.023 12.01c0 1.91.539 3.693 1.472 5.215L2 22l4.945-1.442A9.972 9.972 0 0 0 12.04 22c5.523 0 10.017-4.49 10.017-10.01S17.563 2 12.04 2z"/>
+              </svg>
+            </a>
+            <a href="tel:+919560023669" class="social-phone" aria-label="Call Host +91 95600 23669" title="Call: +91 95600 23669">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </a>
+            <a href="https://www.airbnb.co.uk/rooms/1645744603760645099" target="_blank" rel="noopener" aria-label="Airbnb Listing" title="Airbnb Listing (4.88★)">
+              ★
+            </a>
+            <a href="mailto:nevrastays@gmail.com" aria-label="Email nevrastays@gmail.com" title="Email Us">
+              ✉
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">The Stay</h4>
+          <div class="footer-links">
+            <a href="#showcase">The Experience</a>
+            <a href="#featured">Highlights</a>
+            <a href="#gallery">Inspirations Gallery</a>
+            <a href="#amenities">Amenities</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Connect & Social</h4>
+          <div class="footer-links">
+            <a href="tel:+919560023669" class="footer-contact-link">
+              <strong>Call:</strong> +91 95600 23669
+            </a>
+            <a href="https://wa.me/919560023669" target="_blank" rel="noopener" class="footer-contact-link">
+              <strong>WhatsApp:</strong> +91 95600 23669
+            </a>
+            <a href="mailto:nevrastays@gmail.com" class="footer-contact-link">
+              <strong>Email:</strong> nevrastays@gmail.com
+            </a>
+            <a href="https://www.instagram.com/nevra.stay/" target="_blank" rel="noopener" class="footer-contact-link">
+              <strong>Instagram:</strong> @nevra.stay
+            </a>
+            <a href="https://www.facebook.com/nevra.stay" target="_blank" rel="noopener" class="footer-contact-link">
+              <strong>Facebook:</strong> Nevra.Stay
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Direct Booking Inquiry</h4>
+          <p class="footer-brand-desc">Direct inquiries, weekend stays, or custom check-in. Instant response on WhatsApp from Host Gaurav.</p>
+          <div class="footer-subscribe-box">
+            <input type="text" id="footerInquiryInput" placeholder="Your phone or message..." />
+            <button class="btn btn-teal" onclick="window.open('https://wa.me/919560023669?text=' + encodeURIComponent('Hi Gaurav, I would like to inquire about booking Nevra Stays: ' + document.getElementById('footerInquiryInput').value), '_blank');">
+              Inquire
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; <span id="copyrightYear">2026</span> Nevra Stays. All rights reserved. &middot; Supernova, Sector 94, Noida.</div>
+        <div>Hosted with dedication by Superhost Gaurav &middot; 4.88★ Guest Favourite</div>
+      </div>
+    </div>
+  <p class="footer-privacy-note">
+          Privacy Notice: Any details submitted via our inquiry forms (name, contact number, requested dates) are used exclusively to initiate direct communication with host Gaurav on WhatsApp. Nevra Stays does not store, sell, or process personal data on external tracking servers.
+        </p>
+  </footer>
+
+  <!-- ==========================================================================
+       FULLSCREEN LIGHTBOX MODAL
+       ========================================================================== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo Viewer">
+    <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+    <div class="lightbox-container">
+      <div class="lightbox-header">
+        <div class="lightbox-meta">
+          <span class="lightbox-cat-badge" id="lightbox-cat">Skyline & Balcony</span>
+          <span class="lightbox-dim-tag" id="lightbox-dim">1200 &times; 1600 · Tall (Portrait 3:4)</span>
+        </div>
+        <div class="lightbox-actions">
+          <span class="lightbox-counter" id="lightbox-counter">1 / 22</span>
+          <button class="lightbox-close" id="lightbox-close" aria-label="Close fullscreen gallery">&times;</button>
+        </div>
+      </div>
+
+      <div class="lightbox-body">
+        <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Previous photo">&lsaquo;</button>
+        <div class="lightbox-img-stage">
+          <img src="" alt="" id="lightbox-img" />
+        </div>
+        <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Next photo">&rsaquo;</button>
+      </div>
+
+      <div class="lightbox-footer">
+        <div class="lightbox-caption">
+          <h3 class="lightbox-title" id="lightbox-title">Photo Title</h3>
+          <p class="lightbox-desc" id="lightbox-desc">Detailed room description</p>
+        </div>
+        <div>
+          <a href="https://www.airbnb.co.uk/rooms/1645744603760645099" target="_blank" rel="noopener" class="btn btn-coral" style="padding: 0.65rem 1.4rem;">
+            Book on Airbnb &rarr;
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating WhatsApp Direct Contact Button -->
+  <aside class="floating-contact-widget" aria-label="Quick Contact Host">
+    <a href="https://wa.me/919560023669?text=Hi%20Gaurav%2C%20I%20would%20like%20to%20inquire%20about%20booking%20Nevra%20Stays!" 
+       target="_blank" 
+       rel="noopener" 
+       class="floating-whatsapp-btn" 
+       title="Message Host (+91 95600 23669)">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+        <path d="M17.472 14.382c-.301-.15-1.78-.878-2.056-.978-.276-.1-.476-.15-.677.15-.2.301-.777.978-.952 1.179-.176.2-.351.226-.652.075-.301-.15-1.27-.468-2.42-1.493-.895-.798-1.5-1.783-1.675-2.083-.176-.301-.019-.464.132-.614.135-.135.301-.351.451-.527.15-.176.2-.301.301-.501.1-.2.05-.376-.025-.526-.075-.15-.677-1.63-.927-2.233-.244-.588-.492-.508-.677-.517l-.577-.01c-.2 0-.526.075-.802.376-.276.301-1.053 1.028-1.053 2.508 0 1.48 1.078 2.909 1.229 3.109.15.2 2.121 3.238 5.138 4.542.718.311 1.278.497 1.715.636.721.23 1.377.197 1.896.12.578-.087 1.78-.727 2.031-1.429.25-.702.25-1.304.175-1.43-.075-.125-.276-.2-.577-.35zM12.04 2C6.516 2 2.023 6.49 2.023 12.01c0 1.91.539 3.693 1.472 5.215L2 22l4.945-1.442A9.972 9.972 0 0 0 12.04 22c5.523 0 10.017-4.49 10.017-10.01S17.563 2 12.04 2z"/>
+      </svg>
+      <span class="floating-whatsapp-label">Message Host</span>
+    </a>
+  </aside>
+
+  <!-- Scripts -->
+  <script src="leaflet.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
